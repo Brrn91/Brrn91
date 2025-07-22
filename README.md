@@ -1,3 +1,5 @@
+<img width=100% src="top.svg"/>
+
 # Olá, sou Brrn91 👋
 
 Futuro **Desenvolvedor Web** & **UX/UI Design** apaixonado por criar experiências digitais intuitivas.
@@ -22,4 +24,4 @@ Futuro **Desenvolvedor Web** & **UX/UI Design** apaixonado por criar experiênci
 
 ---
 
-> *Minimalismo não é apenas um estilo—é uma forma de comunicar ideias de forma clara e eficaz.*
+<img width=100% src="back.svg"/>
