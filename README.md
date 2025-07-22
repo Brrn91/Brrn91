@@ -21,6 +21,7 @@ Futuro **Desenvolvedor Web** & **UX/UI Design** apaixonado por criar experiênci
 
 ## 🌐 Conecte-se comigo
 - [LinkedIn](https://www.linkedin.com/in/lcsbrn/)
+- [Instagram](https://www.instagram.com/lucas.mafr4/)
 
 ---
 
