@@ -1,9 +1,9 @@
 <img width=100% src="top.svg"/>
 
-# Olá, sou Lucas Bruno (Brrn91) 👋 | Hello, I'm Lucas Bruno (Brrn91) 👋
+# Olá, sou Lucas Bruno (Brrn91) | Hello, I'm Lucas Bruno (Brrn91) 👋
 
-Futuro **Desenvolvedor Web** & **UX/UI Design** apaixonado por criar experiências digitais intuitivas.
-Future **Web Developer** & **UX/UI Designer** passionate about creating intuitive digital experiences.
+- Futuro **Desenvolvedor Web** & **UX/UI Design** apaixonado por criar experiências digitais intuitivas.
+- Future **Web Developer** & **UX/UI Designer** passionate about creating intuitive digital experiences.
 
 ---
 
