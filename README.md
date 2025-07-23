@@ -24,6 +24,7 @@ Future **Web Developer** passionate about creating intuitive digital experiences
 ## 🌐 Conecte-se comigo | Connect with me
 - [LinkedIn](https://www.linkedin.com/in/lcsbrn/)
 - [Instagram](https://www.instagram.com/lucas.mafr4/)
+- [Twitter/X](https://x.com/brrn91/)
 
 ---
 
