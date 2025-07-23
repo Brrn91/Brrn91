@@ -2,6 +2,9 @@
 
 # Olá, sou Lucas Bruno (Brrn91) | Hello, I'm Lucas Bruno (Brrn91) 👋
 
+Welcome to my GitHub profile!  
+Here you'll find a showcase of my latest work, favorite projects, and the skills I'm passionate about.
+
 Future **Web Developer** passionate about creating intuitive digital experiences.
 
 ---
@@ -23,5 +26,14 @@ Future **Web Developer** passionate about creating intuitive digital experiences
 - [Instagram](https://www.instagram.com/lucas.mafr4/)
 
 ---
+
+## 🏆 GitHub Stats
+
+![Brrn91's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Brrn91&show_icons=true&theme=default)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Brrn91&layout=compact)
+
+---
+
+*Let's connect, collaborate and code something amazing together?*
 
 <img width=100% src="back.svg"/>
