@@ -30,7 +30,7 @@ Future **Web Developer** passionate about creating intuitive digital experiences
 
 ## 🏆 GitHub Stats
 
-![Brrn91's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Brrn91&show_icons=true&theme=default)
+![Brrn91's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Brrn91&show_icons=true&theme=default) <br>
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Brrn91&layout=compact)
 
 ---
