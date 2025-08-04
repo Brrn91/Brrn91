@@ -15,9 +15,22 @@ Future **Web Developer** passionate about creating intuitive digital experiences
 
 ---
 
-## 🛠️ Habilidades | Skills
-- **Desenvolvimento Web**: Loading...
-- **Ferramentas**: Figma, Photoshop, CorelDraw
+## 🚀 Objetivo | Purpose
+
+- Strengthen my learning through constant practice  
+- Organize my solutions and acquired knowledge  
+- Share my progress with other students and developers
+
+---
+
+## 🧱 Tecnologias e Tópicos Estudados | Technologies and Topics Covered
+
+- HTML5, CSS3, and Responsive Layout  
+- JavaScript (ES6+)  
+- Programming logic and algorithms  
+- Git and GitHub  
+- Projects focused on Front-end and basic Back-end concepts  
+- Coming soon: React, Node.js, APIs, Databases, and more! 
 
 ---
 
@@ -35,6 +48,8 @@ Future **Web Developer** passionate about creating intuitive digital experiences
 
 ---
 
-*Let's connect, collaborate and code something amazing together?*
+## 🧠 Em aprendizado contínuo... | In a constant learning process...
+
+*This repository will be updated as I progress in my studies. Any feedback, suggestions, or tips are very welcome!*
 
 <img width=100% src="back.svg"/>
