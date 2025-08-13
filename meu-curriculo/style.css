@@ -33,10 +33,63 @@ header {
     text-align: center;
 }
 
+hr {
+    border: none;
+    height: 1px;
+    background-color: var(--cor2);
+    margin: 20px 0;
+}
+
 header > h1 {
     font-family: var(--fonte-destaque);
     font-size: 3em;
     margin-bottom: 20px;
     font-weight: normal;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.250);
+}
+
+header > nav {
+    background-color: var(--cor5);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header > nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    transition: color 0.3s ease;
+}
+
+header > nav > a:hover {
+    color: var(--cor3);
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background-color: var(--cor4);
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main > h2 {
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+main > p {
+    margin: 15px 0px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-indent: 30px;
+}
+
+main strong {
+    font-weight: bold;
 }
