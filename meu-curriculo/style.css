@@ -73,10 +73,11 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-main > h2 {
-    font-family: var(--fonte-destaque);
-    font-size: 2em;
-    margin-bottom: 10px;
+h2 {
+    font-family: var(--fonte-padrao) ;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 main > p {
@@ -101,4 +102,19 @@ main a:hover {
     color: var(--cor3);
     text-decoration: underline;
     background-color: var(--cor1);
+}
+
+ul {
+    list-style-position: inside;
+}
+
+footer {
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
 }
