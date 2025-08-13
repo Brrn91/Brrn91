@@ -25,6 +25,7 @@
 body {
     font-family: var(--fonte-padrao);
     background-color: var(--corbg);
+    line-height: 2em;
 }
 
 header {
@@ -40,6 +41,11 @@ header > h1 {
     margin-bottom: 20px;
     font-weight: normal;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.250);
+}
+
+.obj {
+    text-indent: 30px;
+    text-align: justify;
 }
 
 header > nav {
@@ -78,13 +84,14 @@ h2 {
     font-size: 1.5em;
     margin-bottom: 5px;
     margin-top: 5px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
 }
 
 main > p {
     margin: 15px 0px;
     font-size: 1.1em;
     line-height: 1.6;
-    text-indent: 30px;
 }
 
 main strong {
