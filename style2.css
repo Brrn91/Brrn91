@@ -43,11 +43,6 @@ header > h1 {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.250);
 }
 
-.obj {
-    text-indent: 30px;
-    text-align: justify;
-}
-
 header > nav {
     background-color: var(--cor5);
     padding: 10px;
@@ -89,31 +84,24 @@ h2 {
     padding: 10px 0px 10px 0px;
 }
 
-main > p {
+h3 {
+    font-family: var(--fonte-padrao) ;
+    font-size: 1em;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+main > section > p {
     margin: 15px 0px;
     font-size: 1.1em;
     line-height: 1.6;
 }
 
-main strong {
-    font-weight: bold;
-    color: var(--cor3);
-}
-
-main a {
-    color: var(--cor5);
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-main a:hover {
-    color: var(--cor3);
-    text-decoration: underline;
-    background-color: var(--cor1);
-}
-
 ul {
     list-style-position: inside;
+    font-size: 1.1em;
 }
 
 footer {
