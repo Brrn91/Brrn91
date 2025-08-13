@@ -1,4 +1,4 @@
-<img width=100% src="top.svg"/>
+<img width=100% src="img-readme/top.svg"/>
 
 # Olá, sou Lucas Bruno (Brrn91) | Hello, I'm Lucas Bruno (Brrn91) 👋
 
@@ -52,4 +52,4 @@ Future **Web Developer** passionate about creating intuitive digital experiences
 
 *This repository will be updated as I progress in my studies. Any feedback, suggestions, or tips are very welcome!*
 
-<img width=100% src="back.svg"/>
+<img width=100% src="img-readme/back.svg"/>
