@@ -58,11 +58,15 @@ header > nav > a {
     text-decoration: none;
     font-weight: normal;
     transition: color 0.3s ease;
+    padding: 1px 10px;
 }
 
 header > nav > a:hover {
-    color: var(--cor2);
+    color: var(--cor5);
     text-decoration: underline;
+    background-color: var(--cor1);
+    padding: 1px 10px;
+    border-radius: 3px;
 }
 
 main {
@@ -75,9 +79,16 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+main > img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 h2 {
     font-family: var(--fonte-padrao) ;
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin-bottom: 5px;
     margin-top: 5px;
     text-align: center;
@@ -86,7 +97,7 @@ h2 {
 
 h3 {
     font-family: var(--fonte-padrao) ;
-    font-size: 1em;
+    font-size: 1.3em;
     margin-bottom: 2px;
     margin-top: 2px;
     text-align: center;
