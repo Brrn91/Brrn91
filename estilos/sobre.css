@@ -84,6 +84,7 @@ main > img {
     height: auto;
     display: block;
     margin: 0 auto;
+    width: 200px;;
 }
 
 h2 {
