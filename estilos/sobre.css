@@ -119,6 +119,21 @@ ul {
     padding: 0;
 }
 
+ul > li > a {
+    color: var(--cor5);
+    margin-bottom: 5px;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+ul > li > a:hover {
+    color: var(--cor5);
+    background-color: var(--cor1);
+    text-decoration: underline;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
 ul.social {
     display: flex;
     justify-content: center;
