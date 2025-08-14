@@ -70,7 +70,7 @@ header > nav > a:hover {
 }
 
 main {
-    padding: 20px 30px 50px 30px;
+    padding: 30px;
     background-color: var(--cor0);
     color: var(--cor5);
     max-width: 800px;
@@ -112,8 +112,18 @@ main > section > p {
 }
 
 ul {
+    padding-left: 20px;
     list-style-position: inside;
     font-size: 1.1em;
+    margin: 10px 0px;
+    padding: 0;
+}
+
+ul.social {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
 }
 
 footer {
