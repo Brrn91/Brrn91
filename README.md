@@ -1,4 +1,3 @@
-<base target="_blank">
 <img width=100% src="img-readme/top.svg"/>
 
 # Olá, sou Lucas Bruno (Brrn91) | Hello, I'm Lucas Bruno (Brrn91) 👋
