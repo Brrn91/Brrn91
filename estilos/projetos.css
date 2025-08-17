@@ -125,7 +125,17 @@ main a:hover {
 }
 
 ul {
-    list-style-position: inside;
+    padding-left: 20px;
+    margin: 15px 0px;
+}
+
+ul > li > p {
+    text-indent: 30px;
+    text-decoration: justify;
+}
+
+span {
+  font-size: small;
 }
 
 footer {

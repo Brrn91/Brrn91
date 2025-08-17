@@ -110,6 +110,11 @@ main > section > p {
     font-size: 1.1em;
     line-height: 1.6;
     text-align: justify;
+    text-indent: 30px;
+}
+
+main > section > p > strong {
+    color: var(--cor3);
 }
 
 ul {
@@ -139,7 +144,6 @@ ul.social > li {
     padding: 5px 10px;
     margin: 5px;
     border-radius: 3px;
-    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 ul.social > li:hover{
@@ -147,6 +151,7 @@ ul.social > li:hover{
     background-color: var(--cor1);
     padding: 5px 15px;
     border-radius: 3px;
+    border: var(--cor2) 1px solid;
 }
 
 footer {
