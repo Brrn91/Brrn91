@@ -84,6 +84,10 @@ main {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+section > p {
+  margin-bottom: 20px;
+}
+
 h2 {
   font-family: var(--fonte-padrao);
   font-size: 1.5em;
@@ -94,14 +98,15 @@ h2 {
 }
 
 img {
-  padding-top: 30px;
-  max-width: 500px;
-  max-height: 500px;
-  background-color: var(--cor5);
+  max-width: 420px;
+  max-height: 420px;
+  min-height: 320px;
+  min-width: 320px;
+  border-radius: 20px;
 }
 
 h3 {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 main > p {
@@ -112,6 +117,12 @@ main > p {
 
 p {
   text-indent: 30px;
+}
+
+hr {
+  border-color: var(--cor5);
+  background-color: var(--cor5);
+  height: 0.25px;
 }
 
 main strong {
