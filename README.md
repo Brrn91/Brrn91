@@ -1,45 +1,58 @@
 <img width=100% src="img-readme/top.svg"/>
 
-# 🌐 Projeto Links Sociais
+# Olá, sou Lucas Bruno (Brrn91) | Hello, I'm Lucas Bruno (Brrn91) 👋
 
-Aplicação simples e responsiva para reunir todos os seus links em um só lugar, como um **cartão de visitas digital**.  
-Inspirado em ferramentas como Linktree, mas desenvolvido do zero com **HTML e CSS**.
+Welcome to my GitHub profile!  
+Here you'll find a showcase of my latest work, favorite projects, and the skills I'm passionate about.
 
----
-
-## 🖼️ Demonstração
-
-![Screenshot do Projeto](./screenshot.png) <!-- substitua pelo print do seu projeto -->
-
-👉 [Acesse o projeto online](https://brrn91.github.io/projeto-links-sociais/) <!-- troque pelo link do GitHub Pages, se ativado -->
+Future **Web Developer** passionate about creating intuitive digital experiences.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
-- **HTML5**
-- **CSS3**
-- Responsividade para diferentes dispositivos
+## 👨‍💻 Sobre Mim | About Me
+
+- 🎓 Currently studying Web Development.
+- 📚 Always learning and experimenting with new tools, trends, and best practices in design and development.
 
 ---
 
-## ⚙️ Funcionalidades
-- ✅ Exibe avatar e nome do usuário  
-- ✅ Lista de links personalizáveis  
-- ✅ Design limpo e responsivo  
-- 🚀 Fácil de publicar no GitHub Pages  
+## 🚀 Objetivo | Purpose
+
+- Strengthen my learning through constant practice
+- Organize my solutions and acquired knowledge
+- Share my progress with other students and developers
 
 ---
 
-# 📚 Aprendizados
+## 🧱 Tecnologias e Tópicos Estudados | Technologies and Topics Covered
 
-Durante o desenvolvimento, pude reforçar:
-- Estruturação básica de páginas em HTML
-- Estilização e centralização de elementos com CSS
-- Criação de layout responsivo
-- Publicação de sites no GitHub Pages
+- HTML5, CSS3, and Responsive Layout
+- JavaScript (ES6+)
+- Programming logic and algorithms
+- Git and GitHub
+- Projects focused on Front-end and basic Back-end concepts
+- Coming soon: React, Node.js, APIs, Databases, and more!
 
 ---
 
-💡 **Nota:** Este projeto faz parte do meu aprendizado e portfólio. Feedbacks são bem-vindos! 😊
+## 🌐 Conecte-se comigo | Connect with me
+
+- [LinkedIn](https://www.linkedin.com/in/lcsbrn/)
+- [Instagram](https://www.instagram.com/lucas.mafr4/)
+- [Twitter/X](https://x.com/brrn91/)
+- [Curriculum](https://brrn91.github.io/Brrn91/index.html)
+
+---
+
+## 🏆 GitHub Stats
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Brrn91&layout=compact&theme=transparent) <br>
+![Brrn91's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Brrn91&show_icons=true&theme=transparent)
+
+---
+
+## 🧠 Em aprendizado contínuo... | In a constant learning process...
+
+_This repository will be updated as I progress in my studies. Any feedback, suggestions, or tips are very welcome!_
 
 <img width=100% src="img-readme/back.svg"/>
