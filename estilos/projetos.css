@@ -35,9 +35,9 @@ header {
   text-align: center;
 }
 
-header > h1 {
+header>h1 {
   font-family: var(--fonte-destaque);
-  font-size: 4em;
+  font-size: clamp(2em, 5vw, 4em);
   padding-top: 30px;
   font-weight: normal;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
@@ -48,17 +48,15 @@ header > h1 {
   text-align: justify;
 }
 
-header > nav {
+header>nav {
   background-color: var(--cor5);
   padding: 10px;
   border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
   margin-top: 50px;
+  flex-wrap: wrap;
 }
 
-header > nav > a {
+header>nav>a {
   color: white;
   text-decoration: none;
   font-weight: normal;
@@ -66,7 +64,7 @@ header > nav > a {
   padding: 1px 10px;
 }
 
-header > nav > a:hover {
+header>nav>a:hover {
   color: var(--cor5);
   text-decoration: underline;
   background-color: var(--cor1);
@@ -84,7 +82,7 @@ main {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-section > p {
+section>p {
   margin-bottom: 20px;
 }
 
@@ -98,18 +96,18 @@ h2 {
 }
 
 img {
-  max-width: 420px;
-  max-height: 420px;
-  min-height: 320px;
-  min-width: 320px;
+  max-width: 100%;
+  height: auto;
   border-radius: 20px;
+  display: block;
+  margin: 0 auto;
 }
 
 h3 {
   margin-top: 10px;
 }
 
-main > p {
+main>p {
   margin: 15px 0px;
   font-size: 1.1em;
   line-height: 1.6;
@@ -132,7 +130,7 @@ main strong {
 }
 
 main a {
-  color: var(--cor5);
+  color: #111;
   text-decoration: none;
   transition: color 0.3s ease;
   padding: 1px 10px;
@@ -151,7 +149,7 @@ ul {
   margin: 15px 0px;
 }
 
-ul > li > p {
+ul>li>p {
   text-indent: 30px;
   text-decoration: justify;
 }
@@ -169,4 +167,16 @@ footer {
   bottom: 0;
   width: 100%;
   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  header>nav {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
