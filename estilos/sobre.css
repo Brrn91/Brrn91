@@ -186,8 +186,4 @@ footer {
     flex-direction: column;
     gap: 10px;
   }
-
-  ul.social {
-    columns: 1;
-  }
 }
