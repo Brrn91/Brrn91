@@ -53,6 +53,4 @@ Future **Web Developer** passionate about creating intuitive digital experiences
 
 ## 🧠 Em aprendizado contínuo... | In a constant learning process...
 
-_This repository will be updated as I progress in my studies. Any feedback, suggestions, or tips are very welcome!_
-
 <img width=100% src="img-readme/back.svg"/>
