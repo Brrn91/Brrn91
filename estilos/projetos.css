@@ -34,7 +34,7 @@ header {
   text-align: center;
 }
 
-header>h1 {
+header > h1 {
   font-family: var(--fonte-destaque);
   font-size: clamp(2em, 5vw, 4em);
   padding-top: 30px;
@@ -47,7 +47,7 @@ header>h1 {
   text-align: justify;
 }
 
-header>nav {
+header > nav {
   background-color: var(--color02);
   padding: 10px;
   border-radius: 5px;
@@ -55,7 +55,7 @@ header>nav {
   flex-wrap: wrap;
 }
 
-header>nav>a {
+header > nav > a {
   color: white;
   text-decoration: none;
   font-weight: normal;
@@ -63,7 +63,7 @@ header>nav>a {
   padding: 1px 10px;
 }
 
-header>nav>a:hover {
+header > nav > a:hover {
   color: var(--color04);
   text-decoration: underline;
   background-color: var(--color-destaque);
@@ -81,7 +81,7 @@ main {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-section>p {
+section > p {
   margin-bottom: 20px;
 }
 
@@ -106,7 +106,7 @@ h3 {
   margin-top: 10px;
 }
 
-main>p {
+main > p {
   margin: 15px 0px;
   font-size: 1.1em;
   line-height: 1.6;
@@ -145,7 +145,7 @@ ul {
   margin: 15px 0px;
 }
 
-ul>li>p {
+ul > li > p {
   text-indent: 30px;
   text-decoration: justify;
 }
@@ -171,7 +171,7 @@ footer {
     max-width: 100%;
   }
 
-  header>nav {
+  header > nav {
     flex-direction: column;
     gap: 10px;
   }
