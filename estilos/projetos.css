@@ -96,15 +96,18 @@ h2 {
   padding: 10px 0px 10px 0px;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+iframe {
+  width: 100vh;
+  height: 500px;
+  border: 1px solid var(--color02);
   border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.301);
   display: block;
   margin: 0 auto;
 }
 
 h3 {
+  text-align: center;
   margin-top: 10px;
 }
 
@@ -150,10 +153,6 @@ ul {
 ul > li > p {
   text-indent: 30px;
   text-decoration: justify;
-}
-
-span {
-  font-size: small;
 }
 
 footer {
