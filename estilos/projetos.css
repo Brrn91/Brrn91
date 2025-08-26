@@ -169,11 +169,18 @@ footer {
 @media (max-width: 768px) {
   main {
     padding: 15px;
-    max-width: 100%;
+    max-width: 82vw;
   }
 
   header > nav {
+    font-size: 0.8em;
+    width: 430px;
     flex-direction: column;
     gap: 10px;
+  }
+
+  iframe {
+    width: 82vw;
+    height: 300px;
   }
 }
