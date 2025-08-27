@@ -104,6 +104,7 @@ iframe {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.301);
   display: block;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -119,6 +120,7 @@ main > p {
 
 p {
   text-indent: 30px;
+  text-decoration: justify;
 }
 
 hr {
@@ -143,16 +145,6 @@ main a:hover {
   text-decoration: underline;
   background-color: var(--color-destaque);
   border-radius: 5px;
-}
-
-ul {
-  padding-left: 20px;
-  margin: 15px 0px;
-}
-
-ul > li > p {
-  text-indent: 30px;
-  text-decoration: justify;
 }
 
 footer {
