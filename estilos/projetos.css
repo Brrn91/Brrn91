@@ -110,6 +110,11 @@ iframe {
   margin: 0 auto 20px auto;
 }
 
+iframe:hover {
+  border: 1px solid var(--color-destaque);
+  box-shadow: 2px 2px 5px var(--color-destaque);
+}
+
 h3 {
   text-align: center;
   margin-top: 10px;
@@ -128,6 +133,7 @@ p {
 
 hr {
   height: 0.25px;
+  margin: 30px;
 }
 
 main strong {
@@ -147,7 +153,7 @@ main a:hover {
   color: var(--color04);
   text-decoration: underline;
   background-color: var(--color-destaque);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 footer {
