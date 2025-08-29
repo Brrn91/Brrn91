@@ -34,7 +34,7 @@ header {
   text-align: center;
 }
 
-header > h1 {
+header>h1 {
   font-family: var(--fonte-destaque);
   font-size: clamp(2em, 5vw, 4em);
   padding-top: 30px;
@@ -47,15 +47,18 @@ header > h1 {
   text-align: justify;
 }
 
-header > nav {
+header>nav {
   background-color: var(--color02);
   padding: 10px;
   border-radius: 5px;
   margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
-header > nav > a {
+header>nav>a {
   color: white;
   text-decoration: none;
   font-weight: normal;
@@ -64,7 +67,7 @@ header > nav > a {
   font-weight: bold;
 }
 
-header > nav > a:hover {
+header>nav>a:hover {
   color: var(--color04);
   text-decoration: underline;
   background-color: var(--color-destaque);
@@ -96,7 +99,7 @@ h3 {
   margin-top: 20px;
 }
 
-main > p {
+main>p {
   margin: 15px 0px;
   font-size: 1.1em;
   line-height: 1.6;
@@ -137,14 +140,26 @@ footer {
   margin-top: 20px;
 }
 
+/* Mídias fluidas */
+img,
+video,
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+
 @media (max-width: 768px) {
   main {
     padding: 15px;
     max-width: 100%;
   }
 
-  header > nav {
+  header>nav {
     flex-direction: column;
     gap: 10px;
+  }
+
+  .obj {
+    text-indent: 0;
   }
 }
