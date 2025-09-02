@@ -7,7 +7,8 @@
 :root {
   --color-destaque: #c5f82a;
 
-  --color01: #ffffff;
+  --color00: #ffffff;
+  --color01: #d2d2d2;
   --color02: #333333;
   --color03: #1f1f1f;
   --color04: #141414;
@@ -59,7 +60,7 @@ p#obj {
 header>nav {
   background-color: var(--color02);
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 15px;
   margin-top: 50px;
   display: flex;
   justify-content: center;
@@ -91,8 +92,32 @@ main {
   color: black;
   max-width: 800px;
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section#sobre {
+  background-color: var(--color00);
+  border-radius: 15px;
+  margin:20px 0px 20px 0px;
+  padding: 40px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+section#objetivo {
+  background-color: var(--color00);
+  border-radius: 15px;
+  margin: 20px 0px 20px 0px;
+  padding: 40px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+section#formacao {
+  background-color: var(--color00);
+  border-radius: 15px;
+  margin: 20px 0px 20px 0px;
+  padding: 40px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
 h2 {
@@ -108,7 +133,7 @@ h3 {
   margin-top: 20px;
 }
 
-main > p {
+main>p {
   text-align: justify;
   line-height: 1.5em;
   margin: 20px 0px;
@@ -117,7 +142,7 @@ main > p {
   text-indent: 30px;
 }
 
-main > strong {
+main>strong {
   font-weight: bold;
   color: var(--color03);
   padding: 0 5px;
