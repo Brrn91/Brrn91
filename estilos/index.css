@@ -142,9 +142,11 @@ h3 {
 }
 
 iframe {
+  display: flex;
   margin: auto;
+  width: 800px;
+  height: auto;
   align-items: center;
-  width: 600px;
 }
 
 main>p {
