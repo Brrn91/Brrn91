@@ -37,16 +37,20 @@ Futuro **Desenvolvedor Web** apaixonado por criar experiências digitais intuiti
 
 ## 🌐 Conecte-se comigo
 
-- [LinkedIn](https://www.linkedin.com/in/lcsbrn/)
-- [Instagram](https://www.instagram.com/lucas.mafr4/)
-- [Twitter/X](https://x.com/brrn91/)
-- [Currículo](https://brrn91.github.io/Brrn91/index.html)
+<p align="left">
+  <a href="#" title="LinkedIn">
+  <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lcsbrn/" alt="LinkedIn"/></a>
+  <a href="#" title="WhatsApp">
+  <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=https://wa.me/5547989163024" alt="WhatsApp"/></a>
+  <a href="#" title="Instagram">
+  <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=https://www.instagram.com/lucas.mafr4/" alt="Instagram"/></a>
+</p>
 
 ---
 
 ## 🏆 GitHub Status
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Brrn91&layout=compact&theme=transparent) <br>
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Brrn91&layout=compact&theme=transparent)
 ![GitHub Status - Brrn91](https://github-readme-stats.vercel.app/api?username=Brrn91&show_icons=true&theme=transparent)
 
 ---
