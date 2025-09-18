@@ -201,7 +201,7 @@ iframe {
   height: auto;
 }
 
-@media (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
   main {
     padding: 15px;
     max-width: 100%;
