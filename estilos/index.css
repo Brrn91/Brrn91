@@ -2,10 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:italic,weight@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-  --color-destaque: #c5f82a;
+  --color-destaque: #c5f82b;
 
   --color00: #ffffff;
   --color01: #d2d2d2;
@@ -20,12 +20,21 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  /* Adicionado para melhor controle de larguras */
+}
+
+html {
+  overflow-x: hidden;
+  /* Previne rolagem lateral global */
 }
 
 body {
   font-family: var(--fonte-padrao);
   background-color: var(--color04);
   line-height: 2em;
+  overflow-x: hidden;
+  /* Previne rolagem lateral no body */
 }
 
 header {
@@ -43,7 +52,7 @@ header>h1 {
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
 }
 
-#profile-image {
+#perfil-image {
   margin: 0 auto;
   display: block;
   width: 10em;
@@ -94,12 +103,14 @@ main {
   margin: 0 auto;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  /* Garante adaptação total */
 }
 
 section#sobre {
   background-color: var(--color00);
   border-radius: 15px;
-  margin:20px 0px 20px 0px;
+  margin: 20px 0px 20px 0px;
   padding: 40px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
@@ -144,7 +155,10 @@ h3 {
 iframe {
   display: flex;
   margin: auto;
-  width: 800px;
+  width: 100%;
+  /* Mudado para 100% responsivo */
+  max-width: 800px;
+  /* Mantém limite, mas permite adaptação */
   height: auto;
   align-items: center;
 }
@@ -189,7 +203,8 @@ footer {
   padding: 10px;
   position: relative;
   bottom: 0;
-  width: 97.72vw;
+  width: 100%;
+  /* Mudado para 100% em todas as telas */
   margin-top: 20px;
 }
 
@@ -201,10 +216,104 @@ iframe {
   height: auto;
 }
 
+/* Media Queries Aprimoradas */
+
+/* Mobile: < 480px */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 0.95em;
+    /* Reduz fonte para caber melhor */
+    line-height: 1.6em;
+  }
+
+  header {
+    padding: 20px 10px 5px 10px;
+    /* Reduz padding */
+  }
+
+  header>h1 {
+    padding-top: 15px;
+    font-size: clamp(1.5em, 6vw, 2.5em);
+    /* Mais responsivo */
+  }
+
+  #perfil-image {
+    width: 8em;
+    /* Reduz imagem em mobile */
+  }
+
+  header>nav {
+    flex-direction: column;
+    /* Vertical para economizar espaço */
+    gap: 5px;
+    margin-top: 20px;
+    padding: 5px;
+  }
+
+  header>nav>a {
+    padding: 8px 15px;
+    /* Maior para touch */
+    width: 100%;
+    text-align: center;
+  }
+
+  header>nav>a:hover {
+    padding: 8px 15px;
+    border-radius: 10px;
+  }
+
+  main {
+    padding: 10px 15px 15px 15px;
+    /* Reduz padding drasticamente */
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  section#sobre,
+  section#objetivo,
+  section#formacao,
+  section#projetos {
+    padding: 20px;
+    /* Reduz padding das seções */
+    margin: 10px 0;
+  }
+
+  p#obj,
+  main>p {
+    text-indent: 0;
+    /* Remove indent em mobile para melhor leitura */
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 1.3em;
+    padding: 5px 0;
+  }
+
+  h3 {
+    margin-top: 10px;
+  }
+
+  iframe {
+    width: 100%;
+    max-width: none;
+    /* Remove limite fixo */
+  }
+
+  footer {
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+}
+
+/* Tablet: 481px a 767px (aprimorada da original) */
 @media screen and (min-width: 481px) and (max-width: 767px) {
   main {
     padding: 15px;
     max-width: 100%;
+    /* Garante 100% sem overflow */
   }
 
   header>nav {
@@ -213,6 +322,48 @@ iframe {
   }
 
   .obj {
+    /* Corrigido de .obj para p#obj ou classe, assumindo .obj */
     text-indent: 0;
+  }
+
+  section#sobre,
+  section#objetivo,
+  section#formacao,
+  section#projetos {
+    padding: 30px;
+    margin: 15px 0;
+  }
+
+  iframe {
+    width: 100%;
+    max-width: 600px;
+    /* Limite menor para tablets */
+  }
+}
+
+/* Desktop: > 768px (novo, para otimizar telas grandes) */
+@media screen and (min-width: 768px) {
+  main {
+    padding: 20px 40px 40px 40px;
+    /* Padding maior em desktop */
+    max-width: 900px;
+    /* Aumenta ligeiramente para telas grandes */
+  }
+
+  header>nav {
+    flex-direction: row;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  section#sobre,
+  section#objetivo,
+  section#formacao,
+  section#projetos {
+    padding: 50px;
+  }
+
+  iframe {
+    max-width: 800px;
   }
 }
