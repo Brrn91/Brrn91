@@ -34,7 +34,7 @@ html {
 
 body {
   font-family: var(--font-primary);
-  background-color: var(--color-black);
+  background-image: linear-gradient(to right top, #051733, #2c1a45, #56134a, #7d003e, #970624);
   line-height: 2em;
   overflow-x: hidden;
   /* Previne rolagem lateral no body */
@@ -42,13 +42,13 @@ body {
 
 /* Cabeçalho */
 header {
-  background-image: linear-gradient(to bottom, var(--color-light-gray), var(--color-black));
-  color: var(--color-white);
+  color: var(--color-black);
   padding: 50px 15px 10px;
   text-align: center;
 }
 
 header>h1 {
+  color: var(--color-white);
   font-family: var(--font-secondary);
   font-size: clamp(2em, 5vw, 4em);
   padding-top: 30px;
@@ -73,7 +73,12 @@ p#obj {
 
 /* Navegação do cabeçalho */
 header>nav {
-  background-color: var(--color-dark-gray);
+  background: rgba(255, 255, 255, 0.285);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.0px);
+  -webkit-backdrop-filter: blur(4.3px);
+  border: 1px solid rgba(255, 255, 255, 0.11);
   padding: 10px;
   border-radius: 15px;
   margin-top: 50px;
@@ -84,7 +89,7 @@ header>nav {
 }
 
 header>nav>a {
-  color: var(--color-white);
+  color: var(--color-black);
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
@@ -103,7 +108,6 @@ header>nav>a:hover {
 /* Conteúdo principal */
 main {
   padding: 15px 30px 30px;
-  background-color: var(--color-light-gray);
   color: black;
   max-width: 800px;
   margin: 0 auto;
@@ -117,11 +121,16 @@ section#sobre,
 section#objetivo,
 section#formacao,
 section#projetos {
-  background-color: var(--color-white);
   border-radius: 15px;
   margin: 20px 0;
   padding: 40px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.285);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.0px);
+  -webkit-backdrop-filter: blur(4.3px);
+  border: 1px solid rgba(255, 255, 255, 0.11);
   /* Adicionado para centralizar o conteúdo dentro das seções */
   display: flex;
   flex-direction: column;
