@@ -34,7 +34,7 @@ html {
 
 body {
   font-family: var(--font-primary);
-  background-image: linear-gradient(to right top, #051733, #2c1a45, #56134a, #7d003e, #970624);
+  background: url(../imagens/bg-desktop.jpg) no-repeat top center/cover;
   line-height: 2em;
   overflow-x: hidden;
   /* Previne rolagem lateral no body */
@@ -59,21 +59,20 @@ header>h1 {
 #perfil-image {
   margin: 0 auto;
   display: block;
-  width: 10em;
+  width: 12em;
   height: auto;
   border-radius: 50%;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
 p#obj {
-  /* Mantido p#obj conforme original, mas considere usar uma classe se for mais genérico */
   text-indent: 30px;
   text-align: justify;
 }
 
 /* Navegação do cabeçalho */
 header>nav {
-  background: rgba(255, 255, 255, 0.285);
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4.0px);
@@ -125,7 +124,7 @@ section#projetos {
   margin: 20px 0;
   padding: 40px;
   /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.285);
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4.0px);
@@ -158,8 +157,7 @@ iframe {
   margin: auto;
   width: 100%;
   max-width: 800px;
-  height: auto;
-  /* align-items: center; removido, pois não tem efeito em iframe como item flex */
+  height: 400px;
 }
 
 main>p {
@@ -206,14 +204,6 @@ footer {
   bottom: 0;
   width: 100%;
   margin-top: 20px;
-}
-
-/* Mídias fluidas */
-img,
-video,
-iframe {
-  max-width: 100%;
-  height: auto;
 }
 
 /* Media Queries Aprimoradas */
