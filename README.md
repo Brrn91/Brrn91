@@ -31,7 +31,7 @@ Futuro **Desenvolvedor Web** apaixonado por criar experiências digitais intuiti
 - Lógica de programação e algoritmos
 - Git e GitHub
 - Projetos focados em Front-end e conceitos básicos de Back-end
-- Em breve: React, Node.js, APIs, Bancos de Dados e mais!
+- Em breve: Angular, Node.js, APIs, Bancos de Dados e mais!
 
 ---
 
