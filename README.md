@@ -1,4 +1,4 @@
-<img width=100% src="img-readme/top.svg"/>
+<img width=100% src="../Brrn91/img-readme/top.svg"/>
 
 # Olá, sou Lucas Bruno (Brrn91)👋
 
@@ -59,6 +59,6 @@ Futuro **Desenvolvedor Web** apaixonado por criar experiências digitais intuiti
 
 ---
 
-## 🧠 Em aprendizado contínuo... 
+## 🧠 Em aprendizado contínuo
 
-<img width=100% src="img-readme/back.svg"/>
+<img width=100% src="../Brrn91/img-readme/back.svg"/>
