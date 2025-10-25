@@ -1,5 +1,3 @@
-<img width=100% src="img-readme/top.svg"/>
-
 # Hello, I'm Lucas Bruno (Brrn91) 👋
 
 Welcome to my GitHub profile!  
@@ -59,6 +57,4 @@ Future **Web Developer** passionate about creating intuitive digital experiences
 
 ---
 
-## 🧠 In a constant learning process...
-
-<img width=100% src="img-readme/back.svg"/>
+## 🧠 In a constant learning process
