@@ -1,4 +1,4 @@
-const botao = document.getElementById('tema');
+const botao = document.getElementById('botao-tema');
 const body = document.body;
 
 // Função para alternar entre tema claro e escuro
@@ -23,7 +23,7 @@ localStorage.setItem('tema', isescuro ? 'escuro' : 'claro');
 });
 
 // Scroll suave para links de navegação
-const navLinks = document.querySelectorAll('#menu ul a');
+const navLinks = document.querySelectorAll('#menu ul a.link');
 navLinks.forEach(link => {
   link.addEventListener('click', function(e) {
     e.preventDefault();
