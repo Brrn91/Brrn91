@@ -191,13 +191,13 @@ article h2 {
   font-size: 1.1em;
 }
 
-#projeto-container {
+#projetos-container {
   display: flex;
   flex-direction: column-reverse;
   gap: 20px;
 }
 
-#projeto-container .projeto {
+#projetos-container .projeto {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -208,13 +208,13 @@ article h2 {
   transition: border-color 0.25s, border-width 0.25s;
 }
 
-#projeto-container .projeto:hover {
+#projetos-container .projeto:hover {
   border-color: var(--destaque);
   border-left-width: 15px;
   cursor: pointer;
 }
 
-.projeto .foto {
+#projetos-container .foto {
   width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
@@ -254,16 +254,16 @@ footer a:hover {
     grid-template-columns: 1fr 1fr;
   }
 
-  #projeto-container .projeto {
+  #projetos-container .projeto {
     flex-direction: row-reverse;
     justify-content: space-between;
   }
 
-  #projeto-container .projeto-info {
+  #projetos-container .projeto-info {
     max-width: 80%;
   }
 
-  .projeto .foto {
+  #projetos-container .foto {
     aspect-ratio: 1/1;
     max-width: 20%;
     max-height: 200px;
