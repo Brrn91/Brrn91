@@ -3,7 +3,7 @@ const body = document.body;
 
 // Função para alternar entre tema claro e escuro
 function temaEscuro(tipo) {
-  if (tipo == true) {
+  if (tipo === true) {
     body.classList.add('escuro');
     botao.innerHTML = '<i class="fa-solid fa-sun"></i>';
   } else {
