@@ -35,7 +35,7 @@ Futuro **Desenvolvedor Web** apaixonado por criar experiências digitais intuiti
 
 ## 🌐 Conecte-se comigo
 
-- [LinkedIn](https://www.linkedin.com/in/lcsbrn/)
+- [LinkedIn](https://www.linkedin.com/in/brrn91/)
 
 ---
 
