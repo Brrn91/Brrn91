@@ -35,7 +35,7 @@ Future **Web Developer** passionate about creating intuitive digital experiences
 
 ## 🌐 Connect with me
 
-- [LinkedIn](https://www.linkedin.com/in/lcsbrn/)  
+- [LinkedIn](https://www.linkedin.com/in/brrn91/)  
 
 ---
 
