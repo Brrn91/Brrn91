@@ -33,28 +33,4 @@ Future **Web Developer** passionate about creating intuitive digital experiences
 
 ---
 
-## 🏆 GitHub Status
-
-<table>
-  <tr>
-    <td>
-      <img
-        align="left"
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=Brrn91&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
-        alt="Github Stats"
-      />
-    </td>
-    <td>
-      <br/>
-      <img
-        align="left"
-        src="https://github-readme-streak-stats.herokuapp.com/?user=Brrn91&theme=dark&hide_border=false"
-        alt="Github Stats"
-      />
-    </td>
-  </tr>
-</table>
-
----
-
 ## 🧠 In a constant learning process
