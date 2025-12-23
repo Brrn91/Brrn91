@@ -33,4 +33,12 @@ Future **Web Developer** passionate about creating intuitive digital experiences
 
 ---
 
-## 🧠 In a constant learning process
+## 🌐 Connect with me
+
+- [LinkedIn](https://www.linkedin.com/in/lcsbrn/)  
+
+---
+
+## 🧠 Lifelong learning
+
+*This repository will be updated regularly as I dive into new topics and projects. Any feedback, suggestions, or tips are more than welcome!*  
