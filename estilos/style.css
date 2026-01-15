@@ -18,8 +18,8 @@ Variáveis para cores:
   --fundo-principal: #f5f5f5;
   --texto: #091B0B;
   --texto-inverso: #ffffff;
-  --destaque: #253741;
-  --destaque-inverso: #53727A;
+  --destaque: #2C3033;
+  --destaque-inverso: #39576B;
   --fundo-card: #ffffff;
 }
 
@@ -27,8 +27,8 @@ body.escuro {
   --fundo-principal: #222222;
   --texto: #e0e0e0;
   --texto-inverso: #333333;
-  --destaque: #50d45f;
-  --destaque-inverso: #3b8f45;
+  --destaque: #45C020;
+  --destaque-inverso: #499632;
   --fundo-card: #444444;
 }
 
@@ -103,6 +103,10 @@ section#ficha h1 {
   margin: 15px 0;
   font-size: 1.5em;
   text-align: center;
+}
+
+section#ficha p {
+  text-align: justify;
 }
 
 div#social {
