@@ -1,24 +1,27 @@
-# Olá, sou Lucas Bruno (Brrn91)👋
+# Olá, sou Lucas Bruno (Brrn91) 👋
 
-Bem-vindo ao meu perfil do GitHub!
-Aqui você encontrará uma amostra dos meus trabalhos mais recentes, projetos favoritos e as habilidades pelas quais sou apaixonado.
+Bem-vindo ao meu perfil do GitHub!  
+Aqui você encontrará projetos, experimentos e estudos que representam minha evolução constante na área de tecnologia.
 
-Futuro **Desenvolvedor Web** apaixonado por criar experiências digitais intuitivas.
+Sou futuro **Desenvolvedor Web**, focado em construir interfaces modernas, funcionais e bem estruturadas.
 
 ---
 
 ## 👨‍💻 Sobre Mim
 
-- 🎓 Atualmente estudando Desenvolvimento Web.
-- 📚 Sempre aprendendo e experimentando novas ferramentas, tendências e melhores práticas em design e desenvolvimento.
+- 🎓 Estudante de Desenvolvimento Web
+- 💻 Praticando diariamente HTML, CSS e JavaScript
+- 📈 Em constante evolução técnica e estratégica
+- 🎯 Foco em construir base sólida para atuar profissionalmente como desenvolvedor
 
 ---
 
 ## 🚀 Objetivo
 
-- Fortalecer meu aprendizado através da prática constante
-- Organizar minhas soluções e conhecimento adquirido
-- Compartilhar meu progresso com outros estudantes e desenvolvedores
+- Consolidar fundamentos sólidos em desenvolvimento web
+- Aplicar teoria em projetos práticos e funcionais
+- Evoluir da base do Front-end para soluções mais completas (Full Stack)
+- Construir um portfólio consistente e orientado ao mercado
 
 ---
 
@@ -26,19 +29,24 @@ Futuro **Desenvolvedor Web** apaixonado por criar experiências digitais intuiti
 
 - HTML5, CSS3 e Layout Responsivo
 - JavaScript (ES6+)
+- Manipulação do DOM
 - Lógica de programação e algoritmos
 - Git e GitHub
-- Projetos focados em Front-end e conceitos básicos de Back-end
-- Em breve: React, Node.js, APIs, Bancos de Dados e mais!
+- Estruturação de projetos e boas práticas
+- Em evolução: React, Node.js, APIs e integração com Back-end
 
 ---
 
 ## 🌐 Conecte-se comigo
 
 - [LinkedIn](https://www.linkedin.com/in/brrn91/)
+- [GitHub](https://github.com/Brrn91)
 
 ---
 
 ## 🧠 Em aprendizado contínuo
 
-*Este repositório será atualizado com frequência, conforme avanço em novos conteúdos e projetos. Qualquer feedback ou sugestão será muito bem-vindo!*
+Este perfil é atualizado conforme avanço nos estudos e desenvolvo novos projetos.  
+Estou sempre buscando melhorar minha base técnica, minha organização de código e minha capacidade de resolver problemas reais.
+
+Feedbacks e conexões são sempre bem-vindos!
