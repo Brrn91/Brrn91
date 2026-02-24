@@ -1,44 +1,52 @@
-# Hello, I'm Lucas Bruno (Brrn91) 👋
+# Hi, I'm Lucas Bruno (Brrn91) 👋
 
 Welcome to my GitHub profile!  
-Here you'll find a showcase of my latest work, favorite projects, and the skills I'm passionate about.
+Here you'll find projects, experiments, and studies that represent my continuous growth in technology.
 
-Future **Web Developer** passionate about creating intuitive digital experiences.
+I am a future **Web Developer**, focused on building modern, functional, and well-structured interfaces.
 
 ---
 
 ## 👨‍💻 About Me
 
-- 🎓 Currently studying Web Development.
-- 📚 Always learning and experimenting with new tools, trends, and best practices in design and development.
+- 🎓 Web Development student  
+- 💻 Practicing HTML, CSS, and JavaScript daily  
+- 📈 Constantly improving both technically and strategically  
+- 🎯 Focused on building a solid foundation to work professionally as a developer  
 
 ---
 
-## 🚀 Purpose
+## 🚀 Goals
 
-- Strengthen my learning through constant practice
-- Organize my solutions and acquired knowledge
-- Share my progress with other students and developers
-
----
-
-## 🧱 Technologies and Topics Covered
-
-- HTML5, CSS3, and Responsive Layout
-- JavaScript (ES6+)
-- Programming logic and algorithms
-- Git and GitHub
-- Projects focused on Front-end and basic Back-end concepts
-- Coming soon: React, Node.js, APIs, Databases, and more!
+- Strengthen solid foundations in web development  
+- Apply theory through practical and functional projects  
+- Grow from Front-end fundamentals toward Full Stack solutions  
+- Build a consistent, market-oriented portfolio  
 
 ---
 
-## 🌐 Connect with me
+## 🧱 Technologies & Topics Studied
 
-- [LinkedIn](https://www.linkedin.com/in/brrn91/)  
+- HTML5, CSS3, and Responsive Layout  
+- JavaScript (ES6+)  
+- DOM Manipulation  
+- Programming logic and algorithms  
+- Git and GitHub  
+- Project structure and best practices  
+- Currently learning: React, Node.js, APIs, and Back-end integration  
 
 ---
 
-## 🧠 Lifelong learning
+## 🌐 Connect with Me
 
-*This repository will be updated regularly as I dive into new topics and projects. Any feedback, suggestions, or tips are more than welcome!*  
+- [LinkedIn](https://www.linkedin.com/in/brrn91/)
+- [GitHub](https://github.com/Brrn91)
+
+---
+
+## 🧠 Continuous Learning
+
+This profile is constantly updated as I advance in my studies and develop new projects.  
+I’m always working on improving my technical foundation, code organization, and problem-solving skills.
+
+Feedback and connections are always welcome!
