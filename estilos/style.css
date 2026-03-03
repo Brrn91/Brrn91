@@ -8,6 +8,8 @@ Variáveis para cores:
 --fundo-card
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -15,25 +17,25 @@ Variáveis para cores:
 }
 
 :root {
-  --fundo-principal: #f5f5f5;
+  --fundo-principal: #939393;
   --texto: #091B0B;
-  --texto-inverso: #ffffff;
-  --destaque: #2C3033;
-  --destaque-inverso: #39576B;
-  --fundo-card: #ffffff;
+  --texto-inverso: #161616;
+  --destaque: #161616;
+  --destaque-inverso: #161616;
+  --fundo-card: rgba(65, 65, 65, 0.1);
 }
 
 body.escuro {
-  --fundo-principal: #222222;
+  --fundo-principal: #161616;
   --texto: #e0e0e0;
   --texto-inverso: #333333;
-  --destaque: #359418;
-  --destaque-inverso: #337021;
-  --fundo-card: #444444;
+  --destaque: #FFFFFF;
+  --destaque-inverso: #B5B5B5;
+  --fundo-card: rgba(255, 255, 255, 0.1);
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
@@ -79,7 +81,14 @@ main {
 }
 
 section#ficha {
-  background-color: var(--fundo-card);
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
   padding: 20px;
   border-radius: 8px;
   grid-column: 2;
@@ -92,7 +101,7 @@ section#ficha img.foto {
   overflow: hidden;
   border-radius: 50%;
   border: 2px solid var(--fundo-card);
-  outline: 5px solid var(--destaque);
+  outline: 4px solid var(--destaque);
   display: block;
   margin: auto;
   margin-bottom: 15px;
@@ -131,7 +140,14 @@ section#detalhes {
 }
 
 article {
-  background-color: var(--fundo-card);
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
