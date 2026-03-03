@@ -19,7 +19,7 @@ Variáveis para cores:
 :root {
   --fundo-principal: #939393;
   --texto: #091B0B;
-  --texto-inverso: #161616;
+  --texto-inverso: #d4d4d4;
   --destaque: #161616;
   --destaque-inverso: #161616;
   --fundo-card: rgba(65, 65, 65, 0.1);
@@ -27,9 +27,9 @@ Variáveis para cores:
 
 body.escuro {
   --fundo-principal: #161616;
-  --texto: #e0e0e0;
+  --texto: #d4d4d4;
   --texto-inverso: #333333;
-  --destaque: #FFFFFF;
+  --destaque: #f6f6f6;
   --destaque-inverso: #B5B5B5;
   --fundo-card: rgba(255, 255, 255, 0.1);
 }
