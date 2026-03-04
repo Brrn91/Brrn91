@@ -81,14 +81,6 @@ main {
 }
 
 section#ficha {
-  /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-
   padding: 20px;
   border-radius: 8px;
   grid-column: 2;
@@ -140,14 +132,6 @@ section#detalhes {
 }
 
 article {
-  /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
@@ -257,12 +241,22 @@ article h2 {
 
 .link-externo {
   color: var(--texto);
-  text-decoration: none;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .link-externo:hover {
   color: var(--texto);
+}
+
+.card-glass {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 footer {
