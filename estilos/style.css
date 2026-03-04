@@ -255,14 +255,14 @@ article h2 {
   border-radius: 8px;
 }
 
-#link {
+.link-externo {
   color: var(--texto);
   text-decoration: none;
   font-weight: bold;
 }
 
-#link:hover {
-  color: var(--destaque);
+.link-externo:hover {
+  color: var(--texto);
 }
 
 footer {
