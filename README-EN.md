@@ -1,52 +1,54 @@
-# Hi, I'm Lucas Bruno (Brrn91) 👋
+# Hi there, I'm Lucas Bruno (Brrn91) 👋
 
-Welcome to my GitHub profile!  
-Here you'll find projects, experiments, and studies that represent my continuous growth in technology.
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-In%20Development-green?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Focus-Web%20%26%20Automation-blue?style=for-the-badge" alt="Focus">
+</p>
 
-I am a future **Web Developer**, focused on building modern, functional, and well-structured interfaces.
-
----
-
-## 👨‍💻 About Me
-
-- 🎓 Web Development student  
-- 💻 Practicing HTML, CSS, and JavaScript daily  
-- 📈 Constantly improving both technically and strategically  
-- 🎯 Focused on building a solid foundation to work professionally as a developer  
+I am a **Web Developer** dedicated to building modern, high-performance, and functional interfaces. Beyond Front-end development, I leverage **Python** for process automation and data analysis, aiming to optimize workflows and create intelligent solutions.
 
 ---
 
-## 🚀 Goals
+### 🛠️ Tech Stack & Tools
 
-- Strengthen solid foundations in web development  
-- Apply theory through practical and functional projects  
-- Grow from Front-end fundamentals toward Full Stack solutions  
-- Build a consistent, market-oriented portfolio  
-
----
-
-## 🧱 Technologies & Topics Studied
-
-- HTML5, CSS3, and Responsive Layout  
-- JavaScript (ES6+)  
-- DOM Manipulation  
-- Programming logic and algorithms  
-- Git and GitHub  
-- Project structure and best practices  
-- Currently learning: React, Node.js, APIs, and Back-end integration  
+| Category | Technologies |
+| :--- | :--- |
+| **Web Dev** | HTML5, CSS3, JavaScript (ES6+), React.js (In progress) |
+| **Automation & Data** | **Python**, Data Manipulation, Task Automation |
+| **Tools** | Git, GitHub, VS Code |
+| **Methodologies** | Responsive Design, Clean Code, Programming Logic |
 
 ---
 
-## 🌐 Connect with Me
+### 📊 GitHub Stats
 
-- [LinkedIn](https://www.linkedin.com/in/brrn91/)
-- [GitHub](https://github.com/Brrn91)
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Brrn91&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Brrn91&layout=compact&langs_count=7&theme=tokyonight"/>
+</p>
 
 ---
 
-## 🧠 Continuous Learning
+### 🎯 What I'm working on right now
 
-This profile is constantly updated as I advance in my studies and develop new projects.  
-I’m always working on improving my technical foundation, code organization, and problem-solving skills.
+- 🌐 Deepening my knowledge in the **JavaScript** ecosystem (React and Node.js).
+- 🐍 Developing **Python** scripts to automate repetitive tasks.
+- 📊 Exploring data analysis to generate insights for real-world projects.
+- 🏗️ Consolidating software architecture fundamentals and best practices.
 
-Feedback and connections are always welcome!
+---
+
+### 🤝 Let's connect?
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/brrn91/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="mailto:your-email@example.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+</p>
+
+---
+
+> "Turning coffee into code and data into decisions."
