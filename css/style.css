@@ -20,7 +20,7 @@ Variáveis para cores:
   --fundo-principal: #939393;
   --texto: #091B0B;
   --texto-inverso: #d4d4d4;
-  --destaque: #161616;
+  --destaque: #232323;
   --destaque-inverso: #161616;
   --fundo-card: rgba(65, 65, 65, 0.1);
 }
@@ -70,7 +70,7 @@ nav#menu a {
 
 nav#menu a:hover {
   background-color: var(--destaque-inverso);
-  color: var(--destaque);
+  color: var(--texto-inverso);
 }
 
 main {
