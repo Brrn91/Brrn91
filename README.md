@@ -1,9 +1,9 @@
 # Olá, eu sou o Lucas Bruno (Brrn91) 👋
 
-<p align="center">
+<div align="center">
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-green?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/Foco-Web%20%26%20Automation-blue?style=for-the-badge" alt="Foco">
-</p>
+  <img src="https://img.shields.io/badge/Focus-Full%20Stack%20%26%20Python-blue?style=for-the-badge" alt="Focus">
+</div>
 
 Sou um **Desenvolvedor Web** focado na criação de interfaces modernas e funcionais. Além do Front-end, utilizo o **Python** como aliado para automação de processos e análise de dados, buscando sempre otimizar fluxos de trabalho e criar soluções inteligentes.
 
