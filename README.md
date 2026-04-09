@@ -11,12 +11,12 @@ Sou um **Desenvolvedor Web** focado na criação de interfaces modernas e funcio
 
 ### 🛠️ Tecnologias e Ferramentas
 
-| Categoria | Tecnologias |
-| :--- | :--- |
-| **Web Dev** | HTML5, CSS3, JavaScript (ES6+), React.js (Em progresso) |
-| **Automação & Dados** | **Python**, Manipulação de Dados, Automação de Tarefas |
-| **Ferramentas** | Git, GitHub, Antigravity |
-| **Metodologias** | Layout Responsivo, Clean Code, Lógica de Programação |
+| Categoria             | Tecnologias                                             |
+| :-------------------- | :------------------------------------------------------ |
+| **Web Dev**           | HTML5, CSS3, JavaScript (ES6+), React.js (Em progresso) |
+| **Automação & Dados** | **Python**, Manipulação de Dados, Automação de Tarefas  |
+| **Ferramentas**       | Git, GitHub, Antigravity                                |
+| **Metodologias**      | Layout Responsivo, Clean Code, Lógica de Programação    |
 
 ---
 
@@ -25,6 +25,7 @@ Sou um **Desenvolvedor Web** focado na criação de interfaces modernas e funcio
 <p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Brrn91&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Brrn91&layout=compact&langs_count=7&theme=tokyonight"/>
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Brrn91&theme=dark&locale=pt_BR&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" /></a>
 </p>
 
 ---
