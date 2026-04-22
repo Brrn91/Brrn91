@@ -12,7 +12,7 @@ Sou um **Desenvolvedor Web** focado na criação de interfaces modernas e funcio
 ### 🛠️ Tecnologias e Ferramentas
 
 | Categoria             | Tecnologias                                                        |
-| :-------------------- | :----------------------------------------------------------------- |
+| :-------------------- | :----------------------------------------------------------------  |
 | **Web Dev**           | HTML5, CSS3, JavaScript (ES6+), TypeScript (Em progresso), Node.js |
 | **Automação & Dados** | **Python**, Manipulação de Dados, Automação de Tarefas             |
 | **Ferramentas**       | Git, GitHub, VS Code                                               |
