@@ -1,0 +1,383 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+h1,
+h2,
+h3,
+.font-heading {
+  font-family: "Syne", sans-serif;
+}
+
+/* ── CSS Custom Properties ── */
+:root {
+  --bg: #f5f3ef;
+  --bg-card: #ffffff;
+  --text: #111111;
+  --muted: #6b6b6b;
+  --accent: #e63329;
+  --warm: #ff6b2c;
+  --border: rgba(0, 0, 0, 0.08);
+  --nav-bg: rgba(245, 243, 239, 0.88);
+  --shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+}
+
+.dark {
+  --bg: #0d0d0d;
+  --bg-card: #1a1a1a;
+  --text: #f0f0f0;
+  --muted: #8a8a8a;
+  --accent: #ff4d35;
+  --warm: #ff8c50;
+  --border: rgba(255, 255, 255, 0.08);
+  --nav-bg: rgba(13, 13, 13, 0.88);
+  --shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* ── Scroll Progress ── */
+#scroll-bar {
+  height: 3px;
+  background: var(--accent);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  transition: width 0.1s linear;
+}
+
+/* ── Navigation ── */
+.nav-glass {
+  background: var(--nav-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-link-item {
+  position: relative;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--muted);
+  transition: color 0.2s;
+  padding-bottom: 2px;
+}
+
+.nav-link-item:hover {
+  color: var(--text);
+}
+
+.nav-link-item::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+  transition: width 0.25s ease;
+}
+
+.nav-link-item:hover::after {
+  width: 100%;
+}
+
+/* ── Cards ── */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.12);
+}
+
+/* ── Section Number ── */
+.section-num {
+  font-family: "Syne", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+/* ── Progress Bars ── */
+.progress-track {
+  background: var(--border);
+  height: 5px;
+  border-radius: 999px;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), var(--warm));
+  transition: width 1.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ── Social / Icon Buttons ── */
+.icon-btn {
+  border: 1px solid var(--border);
+  color: var(--text);
+  background: var(--bg-card);
+  transition:
+    background 0.2s,
+    color 0.2s,
+    border-color 0.2s,
+    transform 0.15s;
+}
+
+.icon-btn:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* ── Timeline ── */
+.timeline-track {
+  border-left: 2px solid var(--border);
+}
+
+.timeline-dot {
+  background: var(--accent);
+  box-shadow: 0 0 0 4px var(--bg);
+}
+
+.timeline-dot-active {
+  background: var(--accent);
+  box-shadow:
+    0 0 0 4px var(--bg),
+    0 0 0 7px var(--accent);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 4px var(--bg),
+      0 0 0 7px rgba(230, 51, 41, 0.4);
+  }
+
+  50% {
+    box-shadow:
+      0 0 0 4px var(--bg),
+      0 0 0 10px rgba(230, 51, 41, 0.1);
+  }
+}
+
+/* ── Avatar Ring ── */
+.avatar-ring {
+  padding: 3px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), var(--warm));
+}
+
+/* ── Project Overlay ── */
+.proj-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.proj-card:hover .proj-overlay {
+  opacity: 1;
+}
+
+.proj-img {
+  transition: transform 0.5s ease;
+}
+
+.proj-card:hover .proj-img {
+  transform: scale(1.06);
+}
+
+/* ── Background Giant Text ── */
+.bg-text-hero {
+  font-family: "Syne", sans-serif;
+  font-weight: 800;
+  font-size: clamp(80px, 15vw, 200px);
+  line-height: 1;
+  color: var(--text);
+  opacity: 0.03;
+  user-select: none;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+/* ── Noise Overlay ── */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9998;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px;
+}
+
+/* ── Fade Up Animation ── */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 0.6s ease both;
+}
+
+.d1 {
+  animation-delay: 0.05s;
+}
+
+.d2 {
+  animation-delay: 0.15s;
+}
+
+.d3 {
+  animation-delay: 0.25s;
+}
+
+.d4 {
+  animation-delay: 0.4s;
+}
+
+/* ── Level Badge ── */
+.level-badge {
+  font-family: "Syne", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1.5px solid var(--accent);
+  color: var(--accent);
+}
+
+/* ── Tech Tag ── */
+.tech-tag {
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: var(--border);
+  color: var(--muted);
+  font-weight: 500;
+}
+
+/* ── Design Tool Tag ── */
+.tool-tag {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 8px 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+/* ── Footer ── */
+footer {
+  border-top: 1px solid var(--border);
+}
+
+/* ── Mobile menu ── */
+#mobile-menu {
+  border-top: 1px solid var(--border);
+}
+
+.mobile-nav-link {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.mobile-nav-link:hover {
+  color: var(--text);
+}
+
+/* ── CTA Button ── */
+.btn-accent {
+  background: var(--accent);
+  color: #fff;
+  transition:
+    opacity 0.2s,
+    transform 0.15s;
+}
+
+.btn-accent:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1.5px solid var(--border);
+  color: var(--text);
+  transition:
+    border-color 0.2s,
+    transform 0.15s;
+}
+
+.btn-outline:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+/* ── Floating badge ── */
+.float-badge {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* ── Status dot ── */
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+}

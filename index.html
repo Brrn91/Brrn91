@@ -57,8 +57,8 @@
       --bg-card: #ffffff;
       --text: #111111;
       --muted: #6b6b6b;
-      --accent: #e63329;
-      --warm: #ff6b2c;
+      --accent: #3229e6;
+      --warm: #2c82ff;
       --border: rgba(0, 0, 0, 0.08);
       --nav-bg: rgba(245, 243, 239, 0.88);
       --shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
@@ -69,8 +69,8 @@
       --bg-card: #1a1a1a;
       --text: #f0f0f0;
       --muted: #8a8a8a;
-      --accent: #ff4d35;
-      --warm: #ff8c50;
+      --accent: #3229e6;
+      --warm: #2c82ff;
       --border: rgba(255, 255, 255, 0.08);
       --nav-bg: rgba(13, 13, 13, 0.88);
       --shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
@@ -202,11 +202,11 @@
 
       0%,
       100% {
-        box-shadow: 0 0 0 4px var(--bg), 0 0 0 7px rgba(230, 51, 41, 0.4);
+        box-shadow: 0 0 0 4px var(--bg), 0 0 0 7px rgba(50, 41, 230, 0.4);
       }
 
       50% {
-        box-shadow: 0 0 0 4px var(--bg), 0 0 0 10px rgba(230, 51, 41, 0.1);
+        box-shadow: 0 0 0 4px var(--bg), 0 0 0 10px rgba(50, 41, 230, 0.1);
       }
     }
 
@@ -465,12 +465,12 @@
 
     <!-- Decorative background text -->
     <div class="absolute bottom-0 left-0 bg-text-hero select-none" aria-hidden="true">
-      FRONT-END
+      FULL-STACK
     </div>
 
     <!-- Accent glow -->
     <div class="absolute top-1/4 right-0 w-[500px] h-[500px] rounded-full pointer-events-none" aria-hidden="true"
-      style="background: radial-gradient(circle, rgba(230,51,41,0.12) 0%, transparent 70%); transform: translateX(30%);">
+      style="background: radial-gradient(circle, rgba(50, 41, 230, 0.12) 0%, transparent 70%); transform: translateX(30%);">
     </div>
 
     <div class="max-w-6xl mx-auto px-5 sm:px-8 py-24 w-full">
@@ -478,16 +478,15 @@
 
         <!-- Text -->
         <div>
-          <p class="section-num mb-5 fade-up d1">✦ Portfólio 2026</p>
+          <p class="section-num mb-5 fade-up d1">✦ Portfólio</p>
 
           <h1 class="font-heading text-5xl sm:text-6xl lg:text-7xl font-black leading-none mb-6 fade-up d2">
             Lucas<br>
-            <span style="color: var(--accent)">Bruno</span><br>
-            Mafra.
+            <span style="color: var(--accent)">Mafra.</span><br>
           </h1>
 
           <p class="text-base sm:text-lg leading-relaxed mb-8 max-w-md fade-up d3" style="color: var(--muted)">
-            Em transição para <strong style="color: var(--text); font-weight: 600;">desenvolvimento Front-End</strong>.
+            Em transição para <strong style="color: var(--text); font-weight: 600;">Desenvolvimento Web</strong>.
             Background em design (Figma, Photoshop, Corel Draw) e buscando minha primeira oportunidade na área de tech.
           </p>
 
@@ -528,7 +527,7 @@
           <div class="relative">
             <!-- Avatar -->
             <div class="avatar-ring w-64 h-64 sm:w-72 sm:h-72 mx-auto">
-              <img src="./assets/img/eu.png" alt="Foto de Lucas Bruno" class="w-full h-full rounded-full object-cover">
+              <img src="./assets/img/eu.jpg" alt="Foto de Lucas Bruno" class="w-full h-full rounded-full object-cover">
             </div>
 
             <!-- Badge: Disponível -->
@@ -543,7 +542,7 @@
             <!-- Badge: Foco -->
             <div class="float-badge absolute -top-3 -right-4 rounded-2xl px-4 py-3">
               <p class="section-num text-xs mb-0.5">Foco</p>
-              <p class="font-heading font-bold text-sm" style="color: var(--accent)">Front-End</p>
+              <p class="font-heading font-bold text-sm" style="color: var(--accent)">Des. Web</p>
             </div>
           </div>
         </div>
@@ -609,9 +608,9 @@
             <span class="level-badge">Iniciante</span>
           </div>
           <div class="progress-track">
-            <div class="progress-fill" style="width: 10%"></div>
+            <div class="progress-fill" style="width: 20%"></div>
           </div>
-          <p class="text-xs mt-2" style="color: var(--muted)">10%</p>
+          <p class="text-xs mt-2" style="color: var(--muted)">20%</p>
         </div>
 
         <!-- Tailwind CSS -->
@@ -626,9 +625,9 @@
             <span class="level-badge">Iniciante</span>
           </div>
           <div class="progress-track">
-            <div class="progress-fill" style="width: 10%"></div>
+            <div class="progress-fill" style="width: 15%"></div>
           </div>
-          <p class="text-xs mt-2" style="color: var(--muted)">10%</p>
+          <p class="text-xs mt-2" style="color: var(--muted)">15%</p>
         </div>
 
         <!-- Bootstrap -->
@@ -660,9 +659,9 @@
             <span class="level-badge">Iniciante</span>
           </div>
           <div class="progress-track">
-            <div class="progress-fill" style="width: 20%"></div>
+            <div class="progress-fill" style="width: 40%"></div>
           </div>
-          <p class="text-xs mt-2" style="color: var(--muted)">20%</p>
+          <p class="text-xs mt-2" style="color: var(--muted)">40%</p>
         </div>
 
       </div>
@@ -702,7 +701,7 @@
           <div class="card card-hover rounded-2xl p-5 cursor-pointer">
             <p class="section-num">2023</p>
             <h3 class="font-heading font-bold text-lg mt-1">Unifacex</h3>
-            <p class="text-sm mt-0.5" style="color: var(--muted)">Gestão de Recursos Humanos</p>
+            <p class="text-sm mt-0.5" style="color: var(--muted)">Gestão de Recursos Humanos (Tecnólogo)</p>
           </div>
         </div>
 
@@ -747,11 +746,25 @@
                 style="background: var(--accent)">Em andamento</span>
             </div>
             <h3 class="font-heading font-bold text-lg mt-1">SENAI</h3>
-            <p class="text-sm mt-0.5" style="color: var(--muted)">Desenvolvedor Front-End e Back-End</p>
+            <p class="text-sm mt-0.5" style="color: var(--muted)">Desenvolvimento Back-End (Node.js)</p>
           </div>
-        </div>
 
-      </div>
+          <!-- ADS — Em andamento -->
+          <div class="relative pt-6 group">
+            <div class="timeline-dot-active absolute -left-[2.2rem] top-2 w-4 h-4 rounded-full"></div>
+            <div class="card card-hover rounded-2xl p-5 cursor-pointer" style="border-color: var(--accent);">
+              <div class="flex flex-wrap items-center gap-2 mb-1">
+                <p class="section-num">2026 - 2029</p>
+                <span class="text-xs font-bold px-2.5 py-0.5 rounded-full text-white font-heading"
+                  style="background: var(--accent)">Em andamento</span>
+              </div>
+              <h3 class="font-heading font-bold text-lg mt-1">Uniasselvi</h3>
+              <p class="text-sm mt-0.5" style="color: var(--muted)">Análise e Desenvolvimento de Sistemas (Tecnólogo)
+              </p>
+            </div>
+          </div>
+
+        </div>
     </section>
 
     <!-- ── PROJETOS ── -->
@@ -944,7 +957,7 @@
       class="nav-link inline-block font-heading font-black text-2xl mb-3 transition-opacity hover:opacity-70"
       style="color: var(--accent)">LB.</a>
     <p class="text-sm" style="color: var(--muted)">
-      Desenvolvido com <i class="fa-solid fa-heart text-xs mx-0.5" style="color: var(--accent)"></i> por
+      Desenvolvido por
       <a href="https://github.com/Brrn91" target="_blank" rel="noopener"
         class="font-semibold hover:underline transition-colors" style="color: var(--text)">
         Lucas Bruno
