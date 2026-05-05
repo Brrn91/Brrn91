@@ -5,8 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portifólio - Lucas Mafra</title>
+  <!-- Favicon -->
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg">
-  <script src="https://kit.fontawesome.com/69d676f4e8.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -21,8 +25,8 @@
               bg: 'green-600',
               card: 'rgba(255, 255, 255, 0.05)',
               border: 'rgba(255, 255, 255, 0.1)',
-              text: '#d4d4d4',
-              accent: '#f6f6f6',
+              text: '#091B0B',
+              accent: '#232323',
             },
             light: {
               bg: '#939393',
@@ -36,80 +40,100 @@
       }
     }
   </script>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <style>
-    body { font-family: 'Poppins', sans-serif; }
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
     .glass {
-      background: rgba(255, 255, 255, 0.05);
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+.light .glass {
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+.dark .glass {
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.9);
+}
+.item {
+  background: rgba(255, 255, 255, 0.3);
+}
+.dark .item {
+  background: rgba(0, 0, 0, 0.6);
+}
+    .progresso {
+      transition: width 1s ease-in-out;
     }
-    .light .glass {
-      background: rgba(255, 255, 255, 0.2);
-      border: 1px solid rgba(255, 255, 255, 0.3);
-    }
-    .progresso { transition: width 1s ease-in-out; }
   </style>
 </head>
 
-<body class="bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-200 transition-colors duration-300">
+<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
 
   <!-- Navbar -->
   <header class="fixed top-0 left-0 right-0 z-50 glass shadow-lg">
     <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
-        <a href="#" class="text-xl font-bold bg-gradient-to-r from-emerald-500 to-amber-500 bg-clip-text text-transparent">
+        <a href="#"
+          class="text-xl font-bold bg-gradient-to-r from-emerald-500 to-amber-500 bg-clip-text text-transparent">
           LM
         </a>
         <div class="hidden md:flex items-center space-x-1">
-          <a href="#ficha" class="nav-link px-4 py-2 rounded-lg text-sm font-medium hover:bg-white/10 transition-all duration-200 flex items-center gap-2">
+          <a href="#ficha"
+            class="nav-link px-4 py-2 rounded-lg text-sm font-medium hover:bg-white/10 transition-all duration-200 flex items-center gap-2">
             <i class="fa-solid fa-house"></i>
             <span>Início</span>
           </a>
-          <a href="#skills" class="nav-link px-4 py-2 rounded-lg text-sm font-medium hover:bg-white/10 transition-all duration-200 flex items-center gap-2">
-            <i class="fa-solid fa-brain"></i>
+          <a href="#skills"
+            class="nav-link px-4 py-2 rounded-lg text-sm font-medium hover:bg-white/10 transition-all duration-200 flex items-center gap-2">
+            <i class="bi bi-brain"></i>
             <span>Skills</span>
           </a>
-          <a href="#formacao" class="nav-link px-4 py-2 rounded-lg text-sm font-medium hover:bg-white/10 transition-all duration-200 flex items-center gap-2">
-            <i class="fa-solid fa-graduation-cap"></i>
+          <a href="#formacao"
+            class="nav-link px-4 py-2 rounded-lg text-sm font-medium hover:bg-white/10 transition-all duration-200 flex items-center gap-2">
+            <i class="bi bi-graduation-cap"></i>
             <span>Formação</span>
           </a>
-          <a href="#projetos" class="nav-link px-4 py-2 rounded-lg text-sm font-medium hover:bg-white/10 transition-all duration-200 flex items-center gap-2">
-            <i class="fa-solid fa-trowel-bricks"></i>
+          <a href="#projetos"
+            class="nav-link px-4 py-2 rounded-lg text-sm font-medium hover:bg-white/10 transition-all duration-200 flex items-center gap-2">
+            <i class="bi bi-file-earmark-code-fill"></i>
             <span>Projetos</span>
           </a>
-          <button id="botao-tema" class="ml-4 p-2 rounded-lg hover:bg-white/10 transition-all duration-200">
-            <i class="fa-solid fa-moon"></i>
-          </button>
+          <button id="botao-tema" class="ml-4 p-2 rounded-lg hover:bg-white/10 transition-all duration-200"><i class="fa-solid fa-moon"></i></button>
         </div>
         <!-- Mobile menu button -->
         <div class="md:hidden flex items-center gap-2">
-          <button id="botao-tema-mobile" class="p-2 rounded-lg hover:bg-white/10 transition-all duration-200">
-            <i class="fa-solid fa-moon"></i>
-          </button>
-          <button id="mobile-menu-btn" class="p-2 rounded-lg hover:bg-white/10 transition-all duration-200">
-            <i class="fa-solid fa-bars text-xl"></i>
-          </button>
+          <button id="botao-tema-mobile" class="p-2 rounded-lg hover:bg-white/10 transition-all duration-200"><i class="fa-solid fa-moon"></i></button>
+          <button id="mobile-menu-btn" class="p-2 rounded-lg hover:bg-white/10 transition-all duration-200"><i class="fa-solid fa-bars"></i></button>
         </div>
       </div>
       <!-- Mobile menu -->
       <div id="mobile-menu" class="hidden md:hidden pb-4">
         <div class="flex flex-col space-y-1">
-          <a href="#ficha" class="mobile-nav-link px-4 py-2 rounded-lg text-sm font-medium hover:bg-white/10 transition-all duration-200 flex items-center gap-2">
-            <i class="fa-solid fa-house"></i>
+          <a href="#ficha"
+            class="mobile-nav-link px-4 py-2 rounded-lg text-sm font-medium hover:bg-white/10 transition-all duration-200 flex items-center gap-2">
+            <i class="bi bi-house"></i>
             <span>Início</span>
           </a>
-          <a href="#skills" class="mobile-nav-link px-4 py-2 rounded-lg text-sm font-medium hover:bg-white/10 transition-all duration-200 flex items-center gap-2">
-            <i class="fa-solid fa-brain"></i>
+          <a href="#skills"
+            class="mobile-nav-link px-4 py-2 rounded-lg text-sm font-medium hover:bg-white/10 transition-all duration-200 flex items-center gap-2">
+            <i class="bi bi-brain"></i>
             <span>Skills</span>
           </a>
-          <a href="#formacao" class="mobile-nav-link px-4 py-2 rounded-lg text-sm font-medium hover:bg-white/10 transition-all duration-200 flex items-center gap-2">
-            <i class="fa-solid fa-graduation-cap"></i>
+          <a href="#formacao"
+            class="mobile-nav-link px-4 py-2 rounded-lg text-sm font-medium hover:bg-white/10 transition-all duration-200 flex items-center gap-2">
+            <i class="bi bi-graduation-cap"></i>
             <span>Formação</span>
           </a>
-          <a href="#projetos" class="mobile-nav-link px-4 py-2 rounded-lg text-sm font-medium hover:bg-white/10 transition-all duration-200 flex items-center gap-2">
-            <i class="fa-solid fa-trowel-bricks"></i>
+          <a href="#projetos"
+            class="mobile-nav-link px-4 py-2 rounded-lg text-sm font-medium hover:bg-white/10 transition-all duration-200 flex items-center gap-2">
+            <i class="bi bi-file-earmark-code-fill"></i>
             <span>Projetos</span>
           </a>
         </div>
@@ -118,41 +142,52 @@
   </header>
 
   <!-- Hero Section -->
-  <section id="ficha" class="min-h-screen flex items-center justify-center pt-20 pb-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+  <section id="ficha"
+    class="min-h-screen flex items-center justify-center pt-20 pb-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
     <!-- Background decoration -->
     <div class="absolute inset-0 overflow-hidden pointer-events-none">
-      <div class="absolute -top-40 -right-40 w-80 h-80 bg-gray-200 dark:bg-gray-800 dark:from-green-500 dark:to-green-500 rounded-full blur-3xl"></div>
-      <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-500/20 dark:bg-green-500/20 rounded-full blur-3xl"></div>
+      <div
+        class="absolute -top-40 -right-40 w-80 h-80 bg-gray-200 dark:bg-gray-800 dark:from-green-500 dark:to-green-500 rounded-full blur-3xl">
+      </div>
+      <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-500/20 dark:bg-green-500/20 rounded-full blur-3xl">
+      </div>
     </div>
-    
+
     <div class="max-w-4xl mx-auto text-center relative z-10">
       <div class="glass rounded-3xl p-8 sm:p-12 shadow-2xl">
         <div class="relative inline-block mb-8">
-          <img src="./assets/img/eu.png" alt="Foto de perfil de Lucas Bruno" class="w-40 h-40 sm:w-48 sm:h-48 rounded-full object-cover border-4 border-white/20 shadow-xl mx-auto">
-          <div class="absolute -bottom-2 -right-2 w-12 h-12 bg-gradient-to-r from-emerald-500 to-amber-500 rounded-full flex items-center justify-center shadow-lg">
-            <i class="fa-solid fa-code text-white text-lg"></i>
+          <img src="./assets/img/eu.png" alt="Foto de perfil de Lucas Bruno"
+            class="w-40 h-40 sm:w-48 sm:h-48 rounded-full object-cover border-4 border-white/20 shadow-xl mx-auto">
+          <div
+            class="absolute -bottom-2 -right-2 w-12 h-12 bg-gradient-to-r from-emerald-500 to-amber-500 rounded-full flex items-center justify-center shadow-lg">
+            <i class="bi bi-code text-white text-lg"></i>
           </div>
         </div>
-        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+        <h1
+          class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
           Lucas Bruno da Costa Mafra
         </h1>
-        <p class="text-base sm:text-lg text-dark-text/80 dark:text-dark-text/80 text-light-text/80 max-w-2xl mx-auto mb-8 leading-relaxed">
-          Profissional com domínio de Corel Draw, Photoshop e Figma. 
+        <p class="text-base sm:text-lg text-gray-900 dark:text-gray-100 max-w-2xl mx-auto mb-8 leading-relaxed">
+          Profissional com domínio de Corel Draw, Photoshop e Figma.
           Atualmente em transição de carreira para a área de tecnologia, estudando desenvolvimento web front-end e em
           busca de oportunidades para aplicar meus conhecimentos e contribuir com resultados.
         </p>
         <div id="social" class="flex justify-center items-center gap-4 text-3xl">
-          <a href="https://www.linkedin.com/in/brrn91/" target="_blank" rel="nofollow" class="text-gray-200 dark:text-gray-200 text-light-accent hover:text-blue-500 transition-all duration-300 hover:scale-110 transform">
-            <i class="fa-brands fa-square-linkedin"></i>
+          <a href="https://www.linkedin.com/in/brrn91/" target="_blank" rel="nofollow"
+            >
+                        <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a href="https://github.com/Brrn91" target="_blank" rel="nofollow" class="text-gray-200 dark:text-gray-200 text-light-accent hover:text-gray-700 dark:hover:text-gray-300 transition-all duration-300 hover:scale-110 transform">
-            <i class="fa-brands fa-square-github"></i>
+          <a href="https://github.com/Brrn91" target="_blank" rel="nofollow"
+            class="text-gray-800 dark:text-gray-200 text-light-accent hover:text-gray-700 dark:hover:text-gray-300 transition-all duration-300 hover:scale-110 transform">
+                        <i class="fa-brands fa-github"></i>
           </a>
-          <a href="https://www.instagram.com/lucas.mafr4/" target="_blank" rel="nofollow" class="text-gray-200 dark:text-gray-200 text-light-accent hover:text-pink-500 transition-all duration-300 hover:scale-110 transform">
-            <i class="fa-brands fa-square-instagram"></i>
+          <a href="https://www.instagram.com/lucas.mafr4/" target="_blank" rel="nofollow"
+            class="text-gray-800 dark:text-gray-200 text-light-accent hover:text-pink-500 transition-all duration-300 hover:scale-110 transform">
+                        <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="https://wa.me/5547989163024" target="_blank" rel="nofollow" class="text-gray-200 dark:text-gray-200 text-light-accent hover:text-green-500 transition-all duration-300 hover:scale-110 transform">
-            <i class="fa-brands fa-square-whatsapp"></i>
+          <a href="https://wa.me/5547989163024" target="_blank" rel="nofollow"
+            class="text-gray-800 dark:text-gray-200 text-light-accent hover:text-green-500 transition-all duration-300 hover:scale-110 transform">
+                        <i class="fa-brands fa-whatsapp"></i>
           </a>
         </div>
       </div>
@@ -161,118 +196,135 @@
 
   <!-- Main Content -->
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
-    
+
     <!-- Skills Section -->
     <section id="skills" class="scroll-mt-20">
       <div class="glass rounded-3xl p-6 sm:p-10 shadow-xl">
         <h2 class="text-2xl sm:text-3xl font-bold mb-8 flex items-center gap-3">
-          <span class="w-12 h-12 rounded-xl bg-gradient-to-r from-emerald-500 to-amber-500 flex items-center justify-center shadow-lg">
-            <i class="fa-solid fa-brain text-white text-xl"></i>
+          <span
+            class="w-12 h-12 rounded-xl bg-gradient-to-r from-emerald-500 to-amber-500 flex items-center justify-center shadow-lg">
+            <i class="bi bi-brain text-white text-xl"></i>
           </span>
           Minhas skills
         </h2>
         <div id="skill-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <!-- HTML5 -->
-          <div class="item p-4 rounded-xl bg-white/5 dark:bg-green-900/20 hover:bg-white/10 transition-all duration-300">
+          <div
+            class="item p-4 rounded-xl bg-white/5 dark:bg-green-900/20 hover:bg-white/10 transition-all duration-300">
             <div class="info flex justify-between items-center mb-3">
               <span class="nome font-semibold flex items-center gap-2">
-                <i class="fa-solid fa-code text-blue-400"></i> HTML5
+            <i class="fa-solid fa-code" style="color:#3b82f6"></i> HTML5
               </span>
               <span class="porcent font-bold text-blue-400">80%</span>
             </div>
             <div class="barra w-full h-3 bg-white/10 rounded-full overflow-hidden">
-              <div class="progresso h-full bg-gradient-to-r from-indigo-500 to-blue-400 rounded-full" style="width: 80%;"></div>
+              <div class="progresso h-full bg-gradient-to-r from-indigo-500 to-blue-400 rounded-full"
+                style="width: 80%;"></div>
             </div>
           </div>
 
           <!-- CSS3 -->
-          <div class="item p-4 rounded-xl bg-white/5 dark:bg-green-900/20 hover:bg-white/10 transition-all duration-300">
+          <div
+            class="item p-4 rounded-xl bg-white/5 dark:bg-green-900/20 hover:bg-white/10 transition-all duration-300">
             <div class="info flex justify-between items-center mb-3">
               <span class="nome font-semibold flex items-center gap-2">
-                <i class="fa-solid fa-code text-purple-400"></i> CSS3
+            <i class="fa-solid fa-code" style="color:#a855f7"></i> CSS3
               </span>
               <span class="porcent font-bold text-purple-400">70%</span>
             </div>
             <div class="barra w-full h-3 bg-white/10 rounded-full overflow-hidden">
-              <div class="progresso h-full bg-gradient-to-r from-purple-500 to-purple-400 rounded-full" style="width: 70%;"></div>
+              <div class="progresso h-full bg-gradient-to-r from-purple-500 to-purple-400 rounded-full"
+                style="width: 70%;"></div>
             </div>
           </div>
 
           <!-- Tailwind CSS -->
-          <div class="item p-4 rounded-xl bg-white/5 dark:bg-green-900/20 hover:bg-white/10 transition-all duration-300">
+          <div
+            class="item p-4 rounded-xl bg-white/5 dark:bg-green-900/20 hover:bg-white/10 transition-all duration-300">
             <div class="info flex justify-between items-center mb-3">
               <span class="nome font-semibold flex items-center gap-2">
-                <i class="fa-solid fa-code text-cyan-400"></i> Tailwind CSS
+            <i class="fa-solid fa-code" style="color:#06b6d4"></i> Tailwind CSS
               </span>
               <span class="porcent font-bold text-cyan-400">10%</span>
             </div>
             <div class="barra w-full h-3 bg-white/10 rounded-full overflow-hidden">
-              <div class="progresso h-full bg-gradient-to-r from-cyan-500 to-cyan-400 rounded-full" style="width: 10%;"></div>
+              <div class="progresso h-full bg-gradient-to-r from-cyan-500 to-cyan-400 rounded-full" style="width: 10%;">
+              </div>
             </div>
           </div>
 
           <!-- Bootstrap -->
-          <div class="item p-4 rounded-xl bg-white/5 dark:bg-green-900/20 hover:bg-white/10 transition-all duration-300">
+          <div
+            class="item p-4 rounded-xl bg-white/5 dark:bg-green-900/20 hover:bg-white/10 transition-all duration-300">
             <div class="info flex justify-between items-center mb-3">
               <span class="nome font-semibold flex items-center gap-2">
-                <i class="fa-solid fa-code text-pink-400"></i> Bootstrap
+            <i class="fa-solid fa-code" style="color:#ec4899"></i> Bootstrap
               </span>
               <span class="porcent font-bold text-pink-400">10%</span>
             </div>
             <div class="barra w-full h-3 bg-white/10 rounded-full overflow-hidden">
-              <div class="progresso h-full bg-gradient-to-r from-pink-500 to-pink-400 rounded-full" style="width: 10%;"></div>
+              <div class="progresso h-full bg-gradient-to-r from-pink-500 to-pink-400 rounded-full" style="width: 10%;">
+              </div>
             </div>
           </div>
 
           <!-- JavaScript -->
-          <div class="item p-4 rounded-xl bg-white/5 dark:bg-green-900/20 hover:bg-white/10 transition-all duration-300">
+          <div
+            class="item p-4 rounded-xl bg-white/5 dark:bg-green-900/20 hover:bg-white/10 transition-all duration-300">
             <div class="info flex justify-between items-center mb-3">
               <span class="nome font-semibold flex items-center gap-2">
-                <i class="fa-solid fa-code text-yellow-400"></i> JavaScript
+            <i class="fa-solid fa-code" style="color:#fbbf24"></i> JavaScript
               </span>
               <span class="porcent font-bold text-yellow-400">10%</span>
             </div>
             <div class="barra w-full h-3 bg-white/10 rounded-full overflow-hidden">
-              <div class="progresso h-full bg-gradient-to-r from-yellow-500 to-yellow-400 rounded-full" style="width: 10%;"></div>
+              <div class="progresso h-full bg-gradient-to-r from-yellow-500 to-yellow-400 rounded-full"
+                style="width: 10%;"></div>
             </div>
           </div>
 
           <!-- TypeScript -->
-          <div class="item p-4 rounded-xl bg-white/5 dark:bg-green-900/20 hover:bg-white/10 transition-all duration-300">
+          <div
+            class="item p-4 rounded-xl bg-white/5 dark:bg-green-900/20 hover:bg-white/10 transition-all duration-300">
             <div class="info flex justify-between items-center mb-3">
               <span class="nome font-semibold flex items-center gap-2">
-                <i class="fa-solid fa-code text-blue-600"></i> TypeScript
+            <i class="fa-solid fa-code" style="color:#2563eb"></i> TypeScript
               </span>
               <span class="porcent font-bold text-blue-600">1%</span>
             </div>
             <div class="barra w-full h-3 bg-white/10 rounded-full overflow-hidden">
-              <div class="progresso h-full bg-gradient-to-r from-blue-600 to-blue-500 rounded-full" style="width: 1%;"></div>
+              <div class="progresso h-full bg-gradient-to-r from-blue-600 to-blue-500 rounded-full" style="width: 1%;">
+              </div>
             </div>
           </div>
 
           <!-- React -->
-          <div class="item p-4 rounded-xl bg-white/5 dark:bg-green-900/20 hover:bg-white/10 transition-all duration-300">
+          <div
+            class="item p-4 rounded-xl bg-white/5 dark:bg-green-900/20 hover:bg-white/10 transition-all duration-300">
             <div class="info flex justify-between items-center mb-3">
               <span class="nome font-semibold flex items-center gap-2">
-                <i class="fa-solid fa-code text-cyan-300"></i> React
+            <i class="fa-solid fa-code" style="color:#38bdf8"></i> React
               </span>
               <span class="porcent font-bold text-cyan-300">0%</span>
             </div>
             <div class="barra w-full h-3 bg-white/10 rounded-full overflow-hidden">
-              <div class="progresso h-full bg-gradient-to-r from-cyan-400 to-cyan-300 rounded-full" style="width: 0%;"></div>
+              <div class="progresso h-full bg-gradient-to-r from-cyan-400 to-cyan-300 rounded-full" style="width: 0%;">
+              </div>
             </div>
           </div>
 
           <!-- Node.js -->
-          <div class="item p-4 rounded-xl bg-white/5 dark:bg-green-900/20 hover:bg-white/10 transition-all duration-300">
+          <div
+            class="item p-4 rounded-xl bg-white/5 dark:bg-green-900/20 hover:bg-white/10 transition-all duration-300">
             <div class="info flex justify-between items-center mb-3">
               <span class="nome font-semibold flex items-center gap-2">
-                <i class="fa-solid fa-code text-green-500"></i> Node.js
+            <i class="fa-solid fa-code" style="color:#22c55e"></i> Node.js
               </span>
               <span class="porcent font-bold text-green-500">1%</span>
             </div>
             <div class="barra w-full h-3 bg-white/10 rounded-full overflow-hidden">
-              <div class="progresso h-full bg-gradient-to-r from-green-500 to-green-400 rounded-full" style="width: 1%;"></div>
+              <div class="progresso h-full bg-gradient-to-r from-green-500 to-green-400 rounded-full"
+                style="width: 1%;"></div>
             </div>
           </div>
         </div>
@@ -283,16 +335,21 @@
     <section id="formacao" class="scroll-mt-20">
       <div class="glass rounded-3xl p-6 sm:p-10 shadow-xl">
         <h2 class="text-2xl sm:text-3xl font-bold mb-8 flex items-center gap-3">
-          <span class="w-12 h-12 rounded-xl bg-gradient-to-r from-green-500 to-emerald-500 flex items-center justify-center shadow-lg">
-            <i class="fa-solid fa-graduation-cap text-white text-xl"></i>
+          <span
+            class="w-12 h-12 rounded-xl bg-gradient-to-r from-green-500 to-emerald-500 flex items-center justify-center shadow-lg">
+            <i class="bi bi-graduation-cap text-white text-xl"></i>
           </span>
           Formação
         </h2>
         <div id="formacao-container" class="space-y-4">
           <!-- 2023 - Unifacex -->
-          <div class="curso group relative pl-6 pb-6 border-l-2 border-white/20 hover:border-blue-500 transition-all duration-300 last:border-l-0 last:pb-0">
-            <div class="absolute left-0 top-0 w-4 h-4 -translate-x-[9px] rounded-full bg-gradient-to-r from-emerald-500 to-amber-500 shadow-lg group-hover:scale-125 transition-transform duration-300"></div>
-            <div class="bg-white/5 dark:bg-green-900/20 rounded-xl p-5 group-hover:bg-white/10 transition-all duration-300 cursor-pointer">
+          <div
+            class="curso group relative pl-6 pb-6 border-l-2 border-white/20 hover:border-blue-500 transition-all duration-300 last:border-l-0 last:pb-0">
+            <div
+              class="absolute left-0 top-0 w-4 h-4 -translate-x-[9px] rounded-full bg-gradient-to-r from-emerald-500 to-amber-500 shadow-lg group-hover:scale-125 transition-transform duration-300">
+            </div>
+            <div
+              class="bg-white/5 dark:bg-green-900/20 rounded-xl p-5 group-hover:bg-white/10 transition-all duration-300 cursor-pointer">
               <p class="periodo text-sm font-bold text-blue-400 mb-1">2023</p>
               <h3 class="instituicao text-lg font-semibold mb-1">Unifacex</h3>
               <p class="titulacao text-dark-text/70">Gestão de Recursos Humanos</p>
@@ -300,9 +357,13 @@
           </div>
 
           <!-- 2025 - Trybe -->
-          <div class="curso group relative pl-6 pb-6 border-l-2 border-white/20 hover:border-purple-500 transition-all duration-300 last:border-l-0 last:pb-0">
-            <div class="absolute left-0 top-0 w-4 h-4 -translate-x-[9px] rounded-full bg-gradient-to-r from-purple-500 to-pink-500 shadow-lg group-hover:scale-125 transition-transform duration-300"></div>
-            <div class="bg-white/5 dark:bg-green-900/20 rounded-xl p-5 group-hover:bg-white/10 transition-all duration-300 cursor-pointer">
+          <div
+            class="curso group relative pl-6 pb-6 border-l-2 border-white/20 hover:border-purple-500 transition-all duration-300 last:border-l-0 last:pb-0">
+            <div
+              class="absolute left-0 top-0 w-4 h-4 -translate-x-[9px] rounded-full bg-gradient-to-r from-purple-500 to-pink-500 shadow-lg group-hover:scale-125 transition-transform duration-300">
+            </div>
+            <div
+              class="bg-white/5 dark:bg-green-900/20 rounded-xl p-5 group-hover:bg-white/10 transition-all duration-300 cursor-pointer">
               <p class="periodo text-sm font-bold text-purple-400 mb-1">2025</p>
               <h3 class="instituicao text-lg font-semibold mb-1">Trybe</h3>
               <p class="titulacao text-dark-text/70">Curso: Lógica de Programação</p>
@@ -310,9 +371,13 @@
           </div>
 
           <!-- 2025 - Rocketseat HTML/CSS/JS -->
-          <div class="curso group relative pl-6 pb-6 border-l-2 border-white/20 hover:border-pink-500 transition-all duration-300 last:border-l-0 last:pb-0">
-            <div class="absolute left-0 top-0 w-4 h-4 -translate-x-[9px] rounded-full bg-gradient-to-r from-pink-500 to-red-500 shadow-lg group-hover:scale-125 transition-transform duration-300"></div>
-            <div class="bg-white/5 dark:bg-green-900/20 rounded-xl p-5 group-hover:bg-white/10 transition-all duration-300 cursor-pointer">
+          <div
+            class="curso group relative pl-6 pb-6 border-l-2 border-white/20 hover:border-pink-500 transition-all duration-300 last:border-l-0 last:pb-0">
+            <div
+              class="absolute left-0 top-0 w-4 h-4 -translate-x-[9px] rounded-full bg-gradient-to-r from-pink-500 to-red-500 shadow-lg group-hover:scale-125 transition-transform duration-300">
+            </div>
+            <div
+              class="bg-white/5 dark:bg-green-900/20 rounded-xl p-5 group-hover:bg-white/10 transition-all duration-300 cursor-pointer">
               <p class="periodo text-sm font-bold text-pink-400 mb-1">2025</p>
               <h3 class="instituicao text-lg font-semibold mb-1">Rocketseat</h3>
               <p class="titulacao text-dark-text/70">Fundamentos de Programação Web (HTML, CSS e Javascript)</p>
@@ -320,9 +385,13 @@
           </div>
 
           <!-- 2025 - Rocketseat Git -->
-          <div class="curso group relative pl-6 pb-6 border-l-2 border-white/20 hover:border-red-500 transition-all duration-300 last:border-l-0 last:pb-0">
-            <div class="absolute left-0 top-0 w-4 h-4 -translate-x-[9px] rounded-full bg-gradient-to-r from-red-500 to-orange-500 shadow-lg group-hover:scale-125 transition-transform duration-300"></div>
-            <div class="bg-white/5 dark:bg-green-900/20 rounded-xl p-5 group-hover:bg-white/10 transition-all duration-300 cursor-pointer">
+          <div
+            class="curso group relative pl-6 pb-6 border-l-2 border-white/20 hover:border-red-500 transition-all duration-300 last:border-l-0 last:pb-0">
+            <div
+              class="absolute left-0 top-0 w-4 h-4 -translate-x-[9px] rounded-full bg-gradient-to-r from-red-500 to-orange-500 shadow-lg group-hover:scale-125 transition-transform duration-300">
+            </div>
+            <div
+              class="bg-white/5 dark:bg-green-900/20 rounded-xl p-5 group-hover:bg-white/10 transition-all duration-300 cursor-pointer">
               <p class="periodo text-sm font-bold text-red-400 mb-1">2025</p>
               <h3 class="instituicao text-lg font-semibold mb-1">Rocketseat</h3>
               <p class="titulacao text-dark-text/70">Básico de Git e GitHub</p>
@@ -330,9 +399,13 @@
           </div>
 
           <!-- 2026 - SENAI Front/Back -->
-          <div class="curso group relative pl-6 pb-6 border-l-2 border-white/20 hover:border-orange-500 transition-all duration-300 last:border-l-0 last:pb-0">
-            <div class="absolute left-0 top-0 w-4 h-4 -translate-x-[9px] rounded-full bg-gradient-to-r from-orange-500 to-yellow-500 shadow-lg group-hover:scale-125 transition-transform duration-300"></div>
-            <div class="bg-white/5 dark:bg-green-900/20 rounded-xl p-5 group-hover:bg-white/10 transition-all duration-300 cursor-pointer">
+          <div
+            class="curso group relative pl-6 pb-6 border-l-2 border-white/20 hover:border-orange-500 transition-all duration-300 last:border-l-0 last:pb-0">
+            <div
+              class="absolute left-0 top-0 w-4 h-4 -translate-x-[9px] rounded-full bg-gradient-to-r from-orange-500 to-yellow-500 shadow-lg group-hover:scale-125 transition-transform duration-300">
+            </div>
+            <div
+              class="bg-white/5 dark:bg-green-900/20 rounded-xl p-5 group-hover:bg-white/10 transition-all duration-300 cursor-pointer">
               <p class="periodo text-sm font-bold text-orange-400 mb-1">2026</p>
               <h3 class="instituicao text-lg font-semibold mb-1">SCTEC - SENAI</h3>
               <p class="titulacao text-dark-text/70">Introdução à Programação Front-end e Back-end</p>
@@ -340,9 +413,13 @@
           </div>
 
           <!-- 2026 - SENAI IA -->
-          <div class="curso group relative pl-6 pb-6 border-l-2 border-white/20 hover:border-yellow-500 transition-all duration-300 last:border-l-0 last:pb-0">
-            <div class="absolute left-0 top-0 w-4 h-4 -translate-x-[9px] rounded-full bg-gradient-to-r from-yellow-500 to-green-500 shadow-lg group-hover:scale-125 transition-transform duration-300"></div>
-            <div class="bg-white/5 dark:bg-green-900/20 rounded-xl p-5 group-hover:bg-white/10 transition-all duration-300 cursor-pointer">
+          <div
+            class="curso group relative pl-6 pb-6 border-l-2 border-white/20 hover:border-yellow-500 transition-all duration-300 last:border-l-0 last:pb-0">
+            <div
+              class="absolute left-0 top-0 w-4 h-4 -translate-x-[9px] rounded-full bg-gradient-to-r from-yellow-500 to-green-500 shadow-lg group-hover:scale-125 transition-transform duration-300">
+            </div>
+            <div
+              class="bg-white/5 dark:bg-green-900/20 rounded-xl p-5 group-hover:bg-white/10 transition-all duration-300 cursor-pointer">
               <p class="periodo text-sm font-bold text-yellow-400 mb-1">2026</p>
               <h3 class="instituicao text-lg font-semibold mb-1">SCTEC - SENAI</h3>
               <p class="titulacao text-dark-text/70">IA na Prática: Fundamentos da Inteligência Artificial</p>
@@ -350,9 +427,13 @@
           </div>
 
           <!-- 2026-2029 - Uniasselvi -->
-          <div class="curso group relative pl-6 pb-6 border-l-2 border-white/20 hover:border-green-500 transition-all duration-300 last:border-l-0 last:pb-0">
-            <div class="absolute left-0 top-0 w-4 h-4 -translate-x-[9px] rounded-full bg-gradient-to-r from-green-500 to-emerald-500 shadow-lg group-hover:scale-125 transition-transform duration-300"></div>
-            <div class="bg-white/5 dark:bg-green-900/20 rounded-xl p-5 group-hover:bg-white/10 transition-all duration-300 cursor-pointer">
+          <div
+            class="curso group relative pl-6 pb-6 border-l-2 border-white/20 hover:border-green-500 transition-all duration-300 last:border-l-0 last:pb-0">
+            <div
+              class="absolute left-0 top-0 w-4 h-4 -translate-x-[9px] rounded-full bg-gradient-to-r from-green-500 to-emerald-500 shadow-lg group-hover:scale-125 transition-transform duration-300">
+            </div>
+            <div
+              class="bg-white/5 dark:bg-green-900/20 rounded-xl p-5 group-hover:bg-white/10 transition-all duration-300 cursor-pointer">
               <p class="periodo text-sm font-bold text-green-400 mb-1">2026 ~ 2029</p>
               <h3 class="instituicao text-lg font-semibold mb-1">Uniasselvi</h3>
               <p class="titulacao text-dark-text/70">Análise e Desenvolvimento de Sistemas</p>
@@ -366,166 +447,239 @@
     <section id="projetos" class="scroll-mt-20">
       <div class="glass rounded-3xl p-6 sm:p-10 shadow-xl">
         <h2 class="text-2xl sm:text-3xl font-bold mb-8 flex items-center gap-3">
-          <span class="w-12 h-12 rounded-xl bg-gradient-to-r from-orange-500 to-red-500 flex items-center justify-center shadow-lg">
-            <i class="fa-solid fa-trowel-bricks text-white text-xl"></i>
+          <span
+            class="w-12 h-12 rounded-xl bg-gradient-to-r from-orange-500 to-red-500 flex items-center justify-center shadow-lg">
+            <i class="bi bi-trowel-bricks text-white text-xl"></i>
           </span>
           Projetos
         </h2>
         <div id="projetos-container" class="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <!-- Links Sociais #1 -->
-          <div class="projeto group bg-white/5 dark:bg-green-900/20 rounded-2xl overflow-hidden hover:bg-white/10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 transform cursor-pointer">
+          <div
+            class="projeto group bg-white/5 dark:bg-green-900/20 rounded-2xl overflow-hidden hover:bg-white/10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 transform cursor-pointer">
             <div class="relative overflow-hidden">
-              <img src="./assets/img/links.png" alt="Projeto de um site como linktree" class="foto w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-500">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <img src="./assets/img/links.png" alt="Projeto de um site como linktree"
+                class="foto w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-500">
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
             </div>
             <div class="projeto-info p-5">
               <p class="periodo text-sm font-bold text-orange-400 mb-2">2025</p>
               <h3 class="titulo text-xl font-bold mb-3">Links Sociais #1</h3>
-              <p class="text-dark-text/70 mb-2">Aplicação simples e responsiva para reunir todos os seus links em um só lugar, como um cartão de visitas digital.</p>
-              <p class="text-dark-text/70 mb-3">Inspirado em ferramentas como Linktree, mas desenvolvido do zero com HTML e CSS.</p>
+              <p class="text-dark-text/70 mb-2">Aplicação simples e responsiva para reunir todos os seus links em um só
+                lugar, como um cartão de visitas digital.</p>
+              <p class="text-dark-text/70 mb-3">Inspirado em ferramentas como Linktree, mas desenvolvido do zero com
+                HTML e CSS.</p>
               <details class="descricao">
                 <summary class="cursor-pointer text-blue-400 hover:text-blue-300 transition-colors font-medium">
                   Saiba mais...
                 </summary>
-                <p class="mt-2 text-dark-text/70">Veja o projeto on-line: <a class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors" href="https://brrn91.github.io/projeto-links-sociais/" target="_blank" rel="noopener">Clique aqui.</a></p>
+                <p class="mt-2 text-dark-text/70">Veja o projeto on-line: <a
+                    class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors"
+                    href="https://brrn91.github.io/projeto-links-sociais/" target="_blank" rel="noopener">Clique
+                    aqui.</a></p>
               </details>
             </div>
           </div>
 
           <!-- Links Sociais #2 -->
-          <div class="projeto group bg-white/5 dark:bg-green-900/20 rounded-2xl overflow-hidden hover:bg-white/10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 transform cursor-pointer">
+          <div
+            class="projeto group bg-white/5 dark:bg-green-900/20 rounded-2xl overflow-hidden hover:bg-white/10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 transform cursor-pointer">
             <div class="relative overflow-hidden">
-              <img src="./assets/img/link-social.png" alt="Aplicação que exibe os contatos, parecido com linktree" class="foto w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-500">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <img src="./assets/img/link-social.png" alt="Aplicação que exibe os contatos, parecido com linktree"
+                class="foto w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-500">
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
             </div>
             <div class="projeto-info p-5">
               <p class="periodo text-sm font-bold text-orange-400 mb-2">2025</p>
               <h3 class="titulo text-xl font-bold mb-3">Links Sociais #2</h3>
-              <p class="text-dark-text/70 mb-2">Aplicação simples e responsiva que exibe uma interface de site de redes sociais (clone ou mockup).</p>
-              <p class="text-dark-text/70 mb-3">Projeto desenvolvido como treino de HTML e CSS, com foco em estrutura semântica, responsividade e boas práticas de estilização. Desenvolvido como exercício da plataforma <a class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors" href="https://app.rocketseat.com.br/" target="_blank" rel="noopener">Rocketseat</a>, utilizando HTML, CSS e JavaScript.</p>
+              <p class="text-dark-text/70 mb-2">Aplicação simples e responsiva que exibe uma interface de site de redes
+                sociais (clone ou mockup).</p>
+              <p class="text-dark-text/70 mb-3">Projeto desenvolvido como treino de HTML e CSS, com foco em estrutura
+                semântica, responsividade e boas práticas de estilização. Desenvolvido como exercício da plataforma <a
+                  class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors"
+                  href="https://app.rocketseat.com.br/" target="_blank" rel="noopener">Rocketseat</a>, utilizando HTML,
+                CSS e JavaScript.</p>
               <details class="descricao">
                 <summary class="cursor-pointer text-blue-400 hover:text-blue-300 transition-colors font-medium">
                   Saiba mais...
                 </summary>
-                <p class="mt-2 text-dark-text/70">Veja o projeto on-line: <a class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors" href="https://brrn91.github.io/projeto-social/" target="_blank" rel="noopener">Clique aqui.</a></p>
+                <p class="mt-2 text-dark-text/70">Veja o projeto on-line: <a
+                    class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors"
+                    href="https://brrn91.github.io/projeto-social/" target="_blank" rel="noopener">Clique aqui.</a></p>
               </details>
             </div>
           </div>
 
           <!-- TravelGram -->
-          <div class="projeto group bg-white/5 dark:bg-green-900/20 rounded-2xl overflow-hidden hover:bg-white/10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 transform cursor-pointer">
+          <div
+            class="projeto group bg-white/5 dark:bg-green-900/20 rounded-2xl overflow-hidden hover:bg-white/10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 transform cursor-pointer">
             <div class="relative overflow-hidden">
-              <img src="./assets/img/travelgram.png" alt="Projeto desenvolvido como layout de uma rede social" class="foto w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-500">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <img src="./assets/img/travelgram.png" alt="Projeto desenvolvido como layout de uma rede social"
+                class="foto w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-500">
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
             </div>
             <div class="projeto-info p-5">
               <p class="periodo text-sm font-bold text-orange-400 mb-2">2025</p>
               <h3 class="titulo text-xl font-bold mb-3">TravelGram</h3>
-              <p class="text-dark-text/70 mb-2">Projeto desenvolvido com HTML e CSS puro, inspirado no visual e na estrutura do Instagram, com foco em postagens de fotos de viagens.</p>
-              <p class="text-dark-text/70 mb-3">O projeto tem como objetivo praticar conceitos de layout moderno e responsivo, utilizando Flexbox e CSS Grid Layout para organizar o conteúdo de forma harmônica e adaptável a diferentes tamanhos de tela. <a class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors" href="https://app.rocketseat.com.br/" target="_blank" rel="noopener">Rocketseat</a>.</p>
+              <p class="text-dark-text/70 mb-2">Projeto desenvolvido com HTML e CSS puro, inspirado no visual e na
+                estrutura do Instagram, com foco em postagens de fotos de viagens.</p>
+              <p class="text-dark-text/70 mb-3">O projeto tem como objetivo praticar conceitos de layout moderno e
+                responsivo, utilizando Flexbox e CSS Grid Layout para organizar o conteúdo de forma harmônica e
+                adaptável a diferentes tamanhos de tela. <a
+                  class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors"
+                  href="https://app.rocketseat.com.br/" target="_blank" rel="noopener">Rocketseat</a>.</p>
               <details class="descricao">
                 <summary class="cursor-pointer text-blue-400 hover:text-blue-300 transition-colors font-medium">
                   Saiba mais...
                 </summary>
-                <p class="mt-2 text-dark-text/70">Veja o projeto on-line: <a class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors" href="https://brrn91.github.io/perfil-viagens/" target="_blank" rel="noopener">Clique aqui.</a></p>
+                <p class="mt-2 text-dark-text/70">Veja o projeto on-line: <a
+                    class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors"
+                    href="https://brrn91.github.io/perfil-viagens/" target="_blank" rel="noopener">Clique aqui.</a></p>
               </details>
             </div>
           </div>
 
           <!-- Calculadora Simples -->
-          <div class="projeto group bg-white/5 dark:bg-green-900/20 rounded-2xl overflow-hidden hover:bg-white/10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 transform cursor-pointer">
+          <div
+            class="projeto group bg-white/5 dark:bg-green-900/20 rounded-2xl overflow-hidden hover:bg-white/10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 transform cursor-pointer">
             <div class="relative overflow-hidden">
-              <img src="./assets/img/calculadora.png" alt="Aplicação de uma calculadora usando JavaScript" class="foto w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-500">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <img src="./assets/img/calculadora.png" alt="Aplicação de uma calculadora usando JavaScript"
+                class="foto w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-500">
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
             </div>
             <div class="projeto-info p-5">
               <p class="periodo text-sm font-bold text-orange-400 mb-2">2025</p>
               <h3 class="titulo text-xl font-bold mb-3">Calculadora Simples</h3>
-              <p class="text-dark-text/70 mb-2">Este projeto foi elaborado como forma de treinar e consolidar meus conhecimentos.</p>
-              <p class="text-dark-text/70 mb-3">O projeto tem como objetivo praticar conceitos de HTML, CSS e JavaScript, aplicando conceitos de estrutura, estilização e interatividade em uma aplicação prática.</p>
+              <p class="text-dark-text/70 mb-2">Este projeto foi elaborado como forma de treinar e consolidar meus
+                conhecimentos.</p>
+              <p class="text-dark-text/70 mb-3">O projeto tem como objetivo praticar conceitos de HTML, CSS e
+                JavaScript, aplicando conceitos de estrutura, estilização e interatividade em uma aplicação prática.</p>
               <details class="descricao">
                 <summary class="cursor-pointer text-blue-400 hover:text-blue-300 transition-colors font-medium">
                   Saiba mais...
                 </summary>
-                <p class="mt-2 text-dark-text/70">Veja o projeto on-line: <a class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors" href="https://brrn91.github.io/calculadora/" target="_blank" rel="noopener">Clique aqui.</a></p>
+                <p class="mt-2 text-dark-text/70">Veja o projeto on-line: <a
+                    class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors"
+                    href="https://brrn91.github.io/calculadora/" target="_blank" rel="noopener">Clique aqui.</a></p>
               </details>
             </div>
           </div>
 
           <!-- Login #01 -->
-          <div class="projeto group bg-white/5 dark:bg-green-900/20 rounded-2xl overflow-hidden hover:bg-white/10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 transform cursor-pointer">
+          <div
+            class="projeto group bg-white/5 dark:bg-green-900/20 rounded-2xl overflow-hidden hover:bg-white/10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 transform cursor-pointer">
             <div class="relative overflow-hidden">
-              <img src="./assets/img/login.jpg" alt="Projeto de uma página de login" class="foto w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-500">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <img src="./assets/img/login.jpg" alt="Projeto de uma página de login"
+                class="foto w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-500">
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
             </div>
             <div class="projeto-info p-5">
               <p class="periodo text-sm font-bold text-orange-400 mb-2">2026</p>
               <h3 class="titulo text-xl font-bold mb-3">Login #01</h3>
-              <p class="text-dark-text/70 mb-2">Este projeto foi elaborado como forma de treinar e consolidar meus conhecimentos em desenvolvimento Front-End.</p>
-              <p class="text-dark-text/70 mb-3">O projeto tem como objetivo praticar conceitos de HTML, CSS. Foram aplicados conceitos de estrutura e estilização em uma aplicação prática.</p>
+              <p class="text-dark-text/70 mb-2">Este projeto foi elaborado como forma de treinar e consolidar meus
+                conhecimentos em desenvolvimento Front-End.</p>
+              <p class="text-dark-text/70 mb-3">O projeto tem como objetivo praticar conceitos de HTML, CSS. Foram
+                aplicados conceitos de estrutura e estilização em uma aplicação prática.</p>
               <details class="descricao">
                 <summary class="cursor-pointer text-blue-400 hover:text-blue-300 transition-colors font-medium">
                   Saiba mais...
                 </summary>
-                <p class="mt-2 text-dark-text/70">Veja o projeto on-line: <a class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors" href="https://brrn91.github.io/login-01/" target="_blank" rel="noopener">Clique aqui.</a></p>
+                <p class="mt-2 text-dark-text/70">Veja o projeto on-line: <a
+                    class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors"
+                    href="https://brrn91.github.io/login-01/" target="_blank" rel="noopener">Clique aqui.</a></p>
               </details>
             </div>
           </div>
 
           <!-- To-do List -->
-          <div class="projeto group bg-white/5 dark:bg-green-900/20 rounded-2xl overflow-hidden hover:bg-white/10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 transform cursor-pointer">
+          <div
+            class="projeto group bg-white/5 dark:bg-green-900/20 rounded-2xl overflow-hidden hover:bg-white/10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 transform cursor-pointer">
             <div class="relative overflow-hidden">
-              <img src="./assets/img/to-do-list.png" alt="Projeto de um to-do list com JavaScript" class="foto w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-500">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <img src="./assets/img/to-do-list.png" alt="Projeto de um to-do list com JavaScript"
+                class="foto w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-500">
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
             </div>
             <div class="projeto-info p-5">
               <p class="periodo text-sm font-bold text-orange-400 mb-2">2026</p>
               <h3 class="titulo text-xl font-bold mb-3">To-do List</h3>
-              <p class="text-dark-text/70 mb-2">Projeto de To-Do List desenvolvido como exercício prático para consolidar conhecimentos em HTML, CSS e JavaScript.</p>
-              <p class="text-dark-text/70 mb-3">Aplicação simples e funcional de lista de tarefas, desenvolvida para treinar e consolidar conhecimentos em HTML, CSS e JavaScript.</p>
+              <p class="text-dark-text/70 mb-2">Projeto de To-Do List desenvolvido como exercício prático para
+                consolidar conhecimentos em HTML, CSS e JavaScript.</p>
+              <p class="text-dark-text/70 mb-3">Aplicação simples e funcional de lista de tarefas, desenvolvida para
+                treinar e consolidar conhecimentos em HTML, CSS e JavaScript.</p>
               <details class="descricao">
                 <summary class="cursor-pointer text-blue-400 hover:text-blue-300 transition-colors font-medium">
                   Saiba mais...
                 </summary>
-                <p class="mt-2 text-dark-text/70">Veja o projeto on-line: <a class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors" href="https://brrn91.github.io/to-do-list/" target="_blank" rel="noopener">Clique aqui.</a></p>
+                <p class="mt-2 text-dark-text/70">Veja o projeto on-line: <a
+                    class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors"
+                    href="https://brrn91.github.io/to-do-list/" target="_blank" rel="noopener">Clique aqui.</a></p>
               </details>
             </div>
           </div>
 
           <!-- Cores Aleatórias -->
-          <div class="projeto group bg-white/5 dark:bg-green-900/20 rounded-2xl overflow-hidden hover:bg-white/10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 transform cursor-pointer">
+          <div
+            class="projeto group bg-white/5 dark:bg-green-900/20 rounded-2xl overflow-hidden hover:bg-white/10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 transform cursor-pointer">
             <div class="relative overflow-hidden">
-              <img src="./assets/img/cores-aleatorias.jpg" alt="Projeto de um gerador de código de cores aleatórias" class="foto w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-500">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <img src="./assets/img/cores-aleatorias.jpg" alt="Projeto de um gerador de código de cores aleatórias"
+                class="foto w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-500">
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
             </div>
             <div class="projeto-info p-5">
               <p class="periodo text-sm font-bold text-orange-400 mb-2">2026</p>
               <h3 class="titulo text-xl font-bold mb-3">Cores Aleatórias</h3>
-              <p class="text-dark-text/70 mb-3">Aplicação web simples que gera e exibe cores aleatórias em tempo real, desenvolvida para praticar HTML, CSS e JavaScript, com foco em interatividade, lógica e manipulação do DOM.</p>
+              <p class="text-dark-text/70 mb-3">Aplicação web simples que gera e exibe cores aleatórias em tempo real,
+                desenvolvida para praticar HTML, CSS e JavaScript, com foco em interatividade, lógica e manipulação do
+                DOM.</p>
               <details class="descricao">
                 <summary class="cursor-pointer text-blue-400 hover:text-blue-300 transition-colors font-medium">
                   Saiba mais...
                 </summary>
-                <p class="mt-2 text-dark-text/70">Veja o projeto on-line: <a class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors" href="https://brrn91.github.io/cores-aleatorias/" target="_blank" rel="noopener">Clique aqui.</a></p>
+                <p class="mt-2 text-dark-text/70">Veja o projeto on-line: <a
+                    class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors"
+                    href="https://brrn91.github.io/cores-aleatorias/" target="_blank" rel="noopener">Clique aqui.</a>
+                </p>
               </details>
             </div>
           </div>
 
           <!-- Agendamento Barbearia -->
-          <div class="projeto group bg-white/5 dark:bg-green-900/20 rounded-2xl overflow-hidden hover:bg-white/10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 transform cursor-pointer">
+          <div
+            class="projeto group bg-white/5 dark:bg-green-900/20 rounded-2xl overflow-hidden hover:bg-white/10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 transform cursor-pointer">
             <div class="relative overflow-hidden">
-              <img src="./assets/img/cores-aleatorias.jpg" alt="Projeto de um site de agendamentos para barbearia" class="foto w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-500">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <img src="./assets/img/cores-aleatorias.jpg" alt="Projeto de um site de agendamentos para barbearia"
+                class="foto w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-500">
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
             </div>
             <div class="projeto-info p-5">
               <p class="periodo text-sm font-bold text-orange-400 mb-2">2026</p>
               <h3 class="titulo text-xl font-bold mb-3">Agendamento Barbearia</h3>
-              <p class="text-dark-text/70 mb-3">Aplicação web simples desenvolvida para praticar HTML, CSS e JavaScript, com foco em interatividade, lógica e manipulação do DOM.</p>
+              <p class="text-dark-text/70 mb-3">Aplicação web simples desenvolvida para praticar HTML, CSS e JavaScript,
+                com foco em interatividade, lógica e manipulação do DOM.</p>
               <details class="descricao">
                 <summary class="cursor-pointer text-blue-400 hover:text-blue-300 transition-colors font-medium">
                   Saiba mais...
                 </summary>
-                <p class="mt-2 text-dark-text/70">Veja o projeto on-line: <a class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors" href="https://brrn91.github.io/agendamento-barbearia/" target="_blank" rel="noopener">Clique aqui.</a></p>
+                <p class="mt-2 text-dark-text/70">Veja o projeto on-line: <a
+                    class="link-externo text-blue-400 hover:text-blue-300 font-semibold transition-colors"
+                    href="https://brrn91.github.io/agendamento-barbearia/" target="_blank" rel="noopener">Clique
+                    aqui.</a></p>
               </details>
             </div>
           </div>
@@ -538,7 +692,8 @@
   <footer class="glass mt-16 py-8 px-4">
     <div class="max-w-7xl mx-auto text-center">
       <p class="text-dark-text/70">
-        Portifólio desenvolvido por <a href="https://github.com/Brrn91" target="_blank" rel="noopener" class="text-blue-400 hover:text-blue-300 font-semibold transition-colors">Lucas Bruno</a>.
+        Portifólio desenvolvido por <a href="https://github.com/Brrn91" target="_blank" rel="noopener"
+          class="text-blue-400 hover:text-blue-300 font-semibold transition-colors">Lucas Bruno</a>.
       </p>
     </div>
   </footer>
