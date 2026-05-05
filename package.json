@@ -1,0 +1,24 @@
+{
+  "name": "brrn91",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">\r   <img src=\"https://img.shields.io/badge/Status-Em%20Desenvolvimento-green?style=for-the-badge\" alt=\"Status\">\r   <img src=\"https://img.shields.io/badge/Focus-Full%20Stack%20%26%20Python-blue?style=for-the-badge\" alt=\"Focus\">\r </div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brrn91/Brrn91.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Brrn91/Brrn91/issues"
+  },
+  "homepage": "https://github.com/Brrn91/Brrn91#readme",
+  "devDependencies": {
+    "tailwindcss": "^4.2.4"
+  }
+}
