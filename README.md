@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Focus-Full%20Stack%20%26%20Python-blue?style=for-the-badge" alt="Focus">
 </div>
 
-Sou um **Desenvolvedor Web** focado na criação de interfaces modernas e funcionais. Além do Front-end, utilizo o **Python** como aliado para automação de processos e análise de dados, buscando sempre otimizar fluxos de trabalho e criar soluções inteligentes.
+Sou um **Desenvolvedor Web** focado na criação de interfaces modernas e funcionais.
 
 ---
 
@@ -14,7 +14,6 @@ Sou um **Desenvolvedor Web** focado na criação de interfaces modernas e funcio
 | Categoria             | Tecnologias                                                        |
 | :-------------------- | :----------------------------------------------------------------  |
 | **Web Dev**           | HTML5, CSS3, JavaScript (ES6+), TypeScript (Em progresso), Node.js |
-| **Automação & Dados** | **Python**, Manipulação de Dados, Automação de Tarefas             |
 | **Ferramentas**       | Git, GitHub, VS Code                                               |
 | **Metodologias**      | Layout Responsivo, Clean Code, Lógica de Programação               |
 
@@ -31,8 +30,6 @@ Sou um **Desenvolvedor Web** focado na criação de interfaces modernas e funcio
 ### 🎯 No que estou trabalhando agora?
 
 - 🌐 Evoluindo no ecossistema **JavaScript** (React e Node.js).
-- 🐍 Desenvolvendo scripts em **Python** para automação de tarefas repetitivas.
-- 📊 Explorando a análise de dados para gerar insights em projetos reais.
 - 🏗️ Consolidando fundamentos de arquitetura e boas práticas.
 
 ---
@@ -48,7 +45,6 @@ Sou um **Desenvolvedor Web** focado na criação de interfaces modernas e funcio
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
@@ -61,4 +57,5 @@ Sou um **Desenvolvedor Web** focado na criação de interfaces modernas e funcio
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+
 > "Transformando café em código e dados em decisões."
