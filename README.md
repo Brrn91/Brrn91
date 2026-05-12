@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-green?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/Focus-Full%20Stack%20%26%20Python-blue?style=for-the-badge" alt="Focus">
+  <img src="https://img.shields.io/badge/Focus-Full%20Stack-blue?style=for-the-badge" alt="Focus">
 </div>
 
 Sou um **Desenvolvedor Web** focado na criação de interfaces modernas e funcionais.
@@ -11,11 +11,11 @@ Sou um **Desenvolvedor Web** focado na criação de interfaces modernas e funcio
 
 ### 🛠️ Tecnologias e Ferramentas
 
-| Categoria             | Tecnologias                                                        |
-| :-------------------- | :----------------------------------------------------------------  |
-| **Web Dev**           | HTML5, CSS3, JavaScript (ES6+), TypeScript (Em progresso), Node.js |
-| **Ferramentas**       | Git, GitHub, VS Code                                               |
-| **Metodologias**      | Layout Responsivo, Clean Code, Lógica de Programação               |
+| Categoria        | Tecnologias                                                        |
+| :--------------- | :----------------------------------------------------------------- |
+| **Web Dev**      | HTML5, CSS3, JavaScript (ES6+), TypeScript (Em progresso), Node.js |
+| **Ferramentas**  | Git, GitHub, VS Code                                               |
+| **Metodologias** | Layout Responsivo, Clean Code, Lógica de Programação               |
 
 ---
 
