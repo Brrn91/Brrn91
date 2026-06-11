@@ -11,18 +11,17 @@ Sou um **Desenvolvedor Web** focado na criação de interfaces modernas e funcio
 
 ### 🛠️ Tecnologias e Ferramentas
 
-| Categoria        | Tecnologias                                                        |
-| :--------------- | :----------------------------------------------------------------- |
-| **Web Dev**      | HTML5, CSS3, JavaScript (ES6+), TypeScript (Em progresso), Node.js |
-| **Ferramentas**  | Git, GitHub, VS Code                                               |
-| **Metodologias** | Layout Responsivo, Clean Code, Lógica de Programação               |
+| Categoria        | Tecnologias                                                                      |
+| :--------------- | :------------------------------------------------------------------------------- |
+| **Web Dev**      | HTML5, CSS3, JavaScript (ES6+), TypeScript (Em progresso), Node.js(Em progresso) |
+| **Ferramentas**  | Git, GitHub e Postman/Insomnia                                                   |
+| **Metodologias** | Layout Moderno e Responsivo, Clean Code e Lógica de Programação                  |
 
 ---
 
 ### 📊 Estatísticas do GitHub
 
 ![](https://streak-stats.demolab.com/?user=Brrn91&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api?username=Brrn91&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=Brrn91&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ---
@@ -36,7 +35,7 @@ Sou um **Desenvolvedor Web** focado na criação de interfaces modernas e funcio
 
 ### 🤝 Vamos nos conectar?
 
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/lucas.mafr4) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/brrn91) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:lucasbruno81@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/brrn91) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:lucasbruno81@gmail.com)
 
 ---
 
@@ -60,9 +59,9 @@ Sou um **Desenvolvedor Web** focado na criação de interfaces modernas e funcio
 ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)
 
 ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
-[Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
+![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
 
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-> "Transformando café em código e dados em decisões."
+> "Transformando café em código."
