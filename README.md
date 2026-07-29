@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-green?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/Focus-Back%20End-blue?style=for-the-badge" alt="Focus">
+  <img src="https://img.shields.io/badge/Focus-BackEnd-blue?style=for-the-badge" alt="Focus">
 </div>
 
 Sou um **Desenvolvedor Web** focado na criação de interfaces modernas e funcionais.
