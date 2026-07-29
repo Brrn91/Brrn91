@@ -1,9 +1,11 @@
 # Olá, eu sou o Lucas Bruno (Brrn91) 👋
+### Desenvolvedor em formação focado em JavaScript, TypeScript, Node.js e PostgreSQL.
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-green?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/Focus-BackEnd-blue?style=for-the-badge" alt="Focus">
-</div>
+<p>
+<img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Foco-Back--end-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Open%20to-Learning-orange?style=for-the-badge"/>
+</p>
 
 Desenvolvedor em transição para Back-end, estudando JavaScript, TypeScript, Node.js, Express.js e PostgreSQL. Gosto de transformar problemas em soluções através de aplicações web, APIs REST e projetos práticos que reforçam minha evolução como desenvolvedor.
 
