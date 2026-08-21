@@ -31,10 +31,10 @@ Atualmente estou desenvolvendo projetos Full Stack com foco em JavaScript, TypeS
 - Node.js
 - Express.js
 - PostgreSQL
+- Type ORM
 
 ## 🎯 Próximos passos
 
-- Prisma ORM
 - Docker
 - Testes Automatizados
 - CI/CD
