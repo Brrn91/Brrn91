@@ -1,5 +1,4 @@
 # Olá, eu sou o Lucas Bruno (Brrn91) 👋
-### Desenvolvedor em formação focado em JavaScript, TypeScript, Node.js e PostgreSQL.
 
 <p align="center">
 <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-success?style=for-the-badge"/>
@@ -8,12 +7,6 @@
 </p>
 
 Desenvolvedor em transição para Back-end, estudando JavaScript, TypeScript, Node.js, Express.js e PostgreSQL. Gosto de transformar problemas em soluções através de aplicações web, APIs REST e projetos práticos que reforçam minha evolução como desenvolvedor.
-
----
-
-## 🎯 Objetivo Profissional
-
-Atualmente estou desenvolvendo projetos Full Stack com foco em JavaScript, TypeScript, Node.js e PostgreSQL, buscando minha primeira oportunidade como Desenvolvedor Back-end.
 
 ---
 
