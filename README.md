@@ -12,8 +12,7 @@ Desenvolvedor em transição para Back-end, estudando JavaScript, TypeScript, No
 
 ### 📊 Estatísticas do GitHub
 
-![](https://streak-stats.demolab.com/?user=Brrn91&theme=dark&hide_border=false) ![](https://github-readme-stats.shion.dev/api/top-langs/?username=Brrn91&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Brrn91&theme=github-dark)
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=Brrn91&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ---
 
