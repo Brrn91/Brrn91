@@ -10,12 +10,6 @@ Desenvolvedor em transição para Back-end, estudando JavaScript, TypeScript, No
 
 ---
 
-### 📊 Estatísticas do GitHub
-
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Brrn91&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
----
-
 ## 📚 Atualmente estudando
 
 - JavaScript
