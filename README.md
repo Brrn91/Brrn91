@@ -19,10 +19,10 @@ Desenvolvedor em transição para Back-end, estudando JavaScript, TypeScript, No
 - PostgreSQL
 - Type ORM
 - Testes Automatizados
+- Docker
 
 ## 🎯 Próximos passos
 
-- Docker
 - CI/CD
 
 ---
